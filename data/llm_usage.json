@@ -8,5 +8,21 @@
   "at": "2026-11-15T00:05",
   "stage": "snapshot",
   "usage": {}
+ },
+ {
+  "at": "2026-11-15T00:07",
+  "stage": "snapshot",
+  "usage": {
+   "triage": {
+    "calls": 190,
+    "cache_hits": 1,
+    "tokens_in": 314254,
+    "tokens_out": 21161,
+    "models": {
+     "gemini-3.5-flash-lite": 189,
+     "gemini-3.1-flash-lite": 1
+    }
+   }
+  }
  }
 ]
