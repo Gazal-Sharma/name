@@ -1,0 +1,387 @@
+[
+ {
+  "month": "Nov 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7331811-fe14-4c79-896d-f0a9df901335.pdf",
+  "pages": 21,
+  "quarter": "Q2 FY27",
+  "business": "KPIT Technologies sells software solutions, products, and services for mobility and automotive verticals, focusing on passenger cars, commercial vehicles, trucks, and off-highway segments. Its main offerings include software-defined vehicles (SDV), autonomy, connected features, digital cockpit, and AI-first engineering platforms.",
+  "guidance": [
+   {
+    "topic": "H2 performance better than H1",
+    "metric": "other",
+    "period": "H2 FY27",
+    "said": "H2 will be better than H1 and we maintain that.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "So, what we have said earlier this is what we reiterate and we continue that. We have said that H2 is going to be better than H1 and that is what we maintain.",
+    "speaker": "Sunil Phansalkar",
+    "page": 15,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Overall revenue growth YoY",
+    "value": "6.5% year-on-year in rupee terms",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Overall revenue growth QoQ",
+    "value": "1% quarter-on-quarter in rupee terms",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Off highway and Commercial growth",
+    "value": "27% year-on-year and 17.6% quarter-on-quarter",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Products revenue growth",
+    "value": "5% quarter-on-quarter and 25% year-on-year",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "EBITDA margin",
+    "value": "17.8%",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net cash",
+    "value": "INR 6.2 billion",
+    "page": 4,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d07f9c52-5c5a-443b-b239-6acd5e94b97a.pdf",
+  "pages": 20,
+  "quarter": "Q1 FY27",
+  "business": "KPIT Technologies Limited provides software development, integration, and technology solutions and products to the global automotive and mobility ecosystem. Its main segments and focus areas include passenger car OEMs, commercial vehicles, off-highway and truck manufacturers, software-defined vehicle (SDV) programs, connected cars, autonomous driving, and after-sales transformation.",
+  "guidance": [
+   {
+    "topic": "H2 revenue growth",
+    "metric": "revenue_growth",
+    "period": "H2 FY27",
+    "said": "H2 will be better than H1, and we will return to growth in H2 by Q4, driven by the Q4 performance",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "During the outlook, we have just mentioned that H2 will be better than H1, and we will return to growth in H2 by Q4, driven by the Q4 performance and our profitability will return  largely when the revenues come.",
+    "speaker": "Kishor Patil",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 revenue growth",
+    "metric": "revenue_growth",
+    "period": "Q4 FY27",
+    "said": "By Q4, we will have a meaningful growth.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "And beyond this I mean, we have talked about two things. One is H2 will be better than H1. And by Q4, we will have a meaningful growth.",
+    "speaker": "Kishor Patil",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "Medium-term margin aspiration",
+    "metric": "margin",
+    "period": "medium term",
+    "said": "Over the medium term, we do believe that we will be in a position to get where we have mentioned, achieving 22% to 24% by FY29.",
+    "low": 22,
+    "high": 24,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Over the medium term, we do believe that -- because some of this, we have also looked at outcome-based kind of business model. So, over the medium term, we do believe that we will be in a position to get where we have mentioned.",
+    "speaker": "Kishor Patil",
+    "page": 8,
+    "quote_verified": true
+   },
+   {
+    "topic": "Commercial vehicles growth",
+    "metric": "revenue_growth",
+    "period": "next quarter",
+    "said": "On the commercial vehicle, we will be on for growth next quarter.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "unclear",
+    "quote": "On the commercial vehicle, we will be on for growth next quarter. Actually, this quarter also, there was one specific thing what has happened was a quarter before we had one significant revenue in a particular place.",
+    "speaker": "Kishor Patil",
+    "page": 7,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q1 FY27 EBITDA margin",
+    "value": "17.2%",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 EBIT margin",
+    "value": "12.3%",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 PAT",
+    "value": "INR 1.17 billion",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 deal wins",
+    "value": "USD 257 million",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 YoY CC revenue growth",
+    "value": "0.1%",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 QoQ CC revenue decline",
+    "value": "3.6%",
+    "page": 4,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "May 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c85b6c-58e6-423f-9b32-50b17a948674.pdf",
+  "pages": 31,
+  "quarter": "Q4 FY26",
+  "business": "KPIT Technologies Limited operates as a global mobility technology partner focusing on automotive software and engineering solutions. The company serves automotive original equipment manufacturers (OEMs) and tier-1 suppliers across segments including passenger cars, trucks, off-highway machinery, and new mobility domains.",
+  "guidance": [
+   {
+    "topic": "FY27 EBITDA margin range",
+    "metric": "margin",
+    "period": "FY27",
+    "said": "EBITDA margin is expected to be between 20.5% to 21.2% for FY27 post increasing investment in AI solutions.",
+    "low": 20.5,
+    "high": 21.2,
+    "unit": "%",
+    "change": "new",
+    "quote": "EBITDA 20.5 to 21.2 post increasing investment in AI solutions and products competency development and new markets.",
+    "speaker": "Kishor Patil",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "Medium-term EBITDA margin",
+    "metric": "margin",
+    "period": "medium term",
+    "said": "Medium-term EBITDA margin is expected to be between 22% to 24%.",
+    "low": 22.0,
+    "high": 24.0,
+    "unit": "%",
+    "change": "new",
+    "quote": "So we expect the EBITDA to be between 22% to 24% from where we are today.",
+    "speaker": "Kishor Patil",
+    "page": 18,
+    "quote_verified": true
+   },
+   {
+    "topic": "Solutions and products revenue growth",
+    "metric": "revenue_growth",
+    "period": "FY27",
+    "said": "Revenue growth in solutions and products is expected to be 30% year-on-year.",
+    "low": 30.0,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "We expect 30% year-on-year revenue growth in solution and products, and we hope it will increase over the period.",
+    "speaker": "Kishor Patil",
+    "page": 17,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "FY26 EBITDA margin",
+    "value": "20.8%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 EBITDA margin",
+    "value": "20.6%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 constant currency revenue growth",
+    "value": "1.8%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 deal wins TCV",
+    "value": "$349 million",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Cash at quarter end",
+    "value": "9.6 billion",
+    "page": 3,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Feb 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a574a9b4-2ec3-4418-afd7-7deb13264328.pdf",
+  "pages": 26,
+  "quarter": "Q3 FY26",
+  "business": "KPIT Technologies Limited is a global technology company specializing in embedded software, artificial intelligence, and digital solutions exclusively for the automotive and mobility ecosystem. Its main offerings encompass software-defined vehicle (SDV) solutions, middleware, digital cockpits, powertrain technologies, and autonomous driving solutions for passenger cars, commercial vehicles, and off-highway transport.",
+  "guidance": [
+   {
+    "topic": "FY27 revenue growth",
+    "metric": "revenue_growth",
+    "period": "FY27",
+    "said": "We will for sure grow next year higher than this year.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "We will for sure grow next year higher than this year. And we believe that we will be in a position to do it.",
+    "speaker": "Kishor Patil",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 organic growth",
+    "metric": "revenue_growth",
+    "period": "Q4 FY26",
+    "said": "We believe that in the last quarter that is Q4, we will improve, our growth will be higher, it will be the highest quarterly growth in FY26.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "we believe that in the  last quarter that is Q4, we will improve, our growth will be higher, it will be the highest quarterly growth in FY26.",
+    "speaker": "Kishor Patil",
+    "page": 11,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q3 FY26 Constant Currency Growth",
+    "value": "1.5%",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 Net Profit",
+    "value": "INR 1.53 billion",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 Deal TCV Won",
+    "value": "INR 202 million",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Cash at the end of Q3 FY26",
+    "value": "INR 9 billion",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 Labour Code Impact",
+    "value": "INR 469 million",
+    "page": 4,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Nov 2025",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcf7302f-a4b8-4d59-8914-f53018acd102.pdf",
+  "pages": 24,
+  "quarter": "Q2 FY26",
+  "business": "KPIT Technologies Limited provides engineering software solutions and integration services to the automotive and mobility ecosystem. Its main segments cover autonomous driving, digital cockpits, validation, software-defined vehicles, middleware, and after-sales diagnostics.",
+  "guidance": [
+   {
+    "topic": "FY26 EBITDA margin",
+    "metric": "margin",
+    "period": "FY26",
+    "said": "We are very confident that what we have talked about, that we will be in a position to maintain 21% EBITDA for the full year.",
+    "low": 21.0,
+    "high": 21.0,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "And we are very confident that what we have talked about, that we will be in a position to maintain 21% EBITDA for the full year.",
+    "speaker": "Kishor Patil",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 organic constant currency growth",
+    "metric": "revenue_growth",
+    "period": "Q3 FY26",
+    "said": "We believe that in the Quarter 3, we will be in a position to have a flattish to positive organic constant currency growth.",
+    "low": 0.0,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "We believe that in the Quarter 3, we will be in a position to have a flattish to positive organic constant currency growth and while absorbing the expenses like increments, etc., we will be still around the similar EBITDA margins.",
+    "speaker": "Kishor Patil",
+    "page": 7,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY26 dollar revenue growth YoY",
+    "value": "4.4%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 constant currency revenue growth YoY",
+    "value": "0.4%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 EBITDA margin",
+    "value": "21.1%",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 Net Cash",
+    "value": "Rs. 10.5 billion",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 DSOs",
+    "value": "49 days",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ }
+]

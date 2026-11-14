@@ -1,0 +1,451 @@
+[
+ {
+  "month": "Nov 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7e6efe-1f9b-4b5e-bff7-1da18902ffeb.pdf",
+  "pages": 34,
+  "quarter": "Q2 FY27",
+  "business": "Asian Paints sells paints, home decor products, and industrial coatings. Its main segments include decorative paints, international operations, industrial joint ventures, and home improvement items like bath and kitchen fittings.",
+  "guidance": [
+   {
+    "topic": "FY27 EBITDA margin band",
+    "metric": "margin",
+    "period": "FY27",
+    "said": "The company expects to maintain the EBITDA margin band of 18% to 20% for the full year.",
+    "low": 18.0,
+    "high": 20.0,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "we believe as we go forward, for the year we should be able to maintain the band of what we have spoken of 18% to 20%.",
+    "speaker": "Amit Syngle",
+    "page": 28,
+    "quote_verified": true
+   },
+   {
+    "topic": "Volume growth going forward",
+    "metric": "volume",
+    "period": "remaining FY27",
+    "said": "The management expects a volume growth of about 8% to 9% going forward.",
+    "low": 8.0,
+    "high": 9.0,
+    "unit": "%",
+    "change": "new",
+    "quote": "we feel that it would be reasonable to expect to see a volume growth of about 8% to 9% going forward.",
+    "speaker": "Amit Syngle",
+    "page": 29,
+    "quote_verified": true
+   },
+   {
+    "topic": "Gross margin band expectation",
+    "metric": "margin",
+    "period": "H2 FY27",
+    "said": "Gross margins are expected to be in the band of 41% to 43% in the second half.",
+    "low": 41.0,
+    "high": 43.0,
+    "unit": "%",
+    "change": "new",
+    "quote": "This band of about 41% to 43% would really be the band we should be looking forward to.",
+    "speaker": "Amit Syngle",
+    "page": 27,
+    "quote_verified": true
+   },
+   {
+    "topic": "VAE full capacity ramp-up",
+    "metric": "capacity",
+    "period": "next year",
+    "said": "The company will be able to ramp up and utilize full capacity of phase one within a year's time.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "new",
+    "quote": "What we are confident about is that, as we go forward, within a year's time we should be able to ramp up to full capacity offering this GenNext emulsion",
+    "speaker": "Amit Syngle",
+    "page": 13,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY27 standalone volume growth",
+    "value": "6.4% volume growth",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 decorative value growth",
+    "value": "14.5% value growth",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "H1 FY27 volume growth",
+    "value": "8% volume growth",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 standalone net sales growth",
+    "value": "14.8% net sales growth",
+    "page": 22,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 consolidated net sales growth",
+    "value": "17% net sales growth",
+    "page": 23,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e0d5627-2b8b-4bf1-a7ce-9d0160833a0f.pdf",
+  "pages": 26,
+  "quarter": "Q1 FY27",
+  "business": "Asian Paints sells paints, home decor items, waterproofing solutions, and industrial coatings. Its main segments include decorative paints, industrial businesses (such as automotive OE and general industrial), home decor, and international operations.",
+  "guidance": [
+   {
+    "topic": "FY27 volume growth",
+    "metric": "volume",
+    "period": "FY27",
+    "said": "At the current stage, we are looking at the band of 8-10% for the full FY27.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "At the current stage, we are looking at the band of 8-10% for the full FY27.",
+    "speaker": "Amit Syngle",
+    "page": 20,
+    "quote_verified": true
+   },
+   {
+    "topic": "PBDIT margins",
+    "metric": "margin",
+    "period": "FY27",
+    "said": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds.",
+    "low": 18,
+    "high": 20,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "We are still garnering around the guidance of 18-20% of our PBDIT margins holds.",
+    "speaker": "Amit Syngle",
+    "page": 20,
+    "quote_verified": true
+   },
+   {
+    "topic": "VAM-VAE capacity utilization",
+    "metric": "capacity",
+    "period": "next 2-2.5 years",
+    "said": "Our feeling is that possibly over a period of about 2-2.5 years, we should be able to reach basically a capacity which is higher and closer to about 150,000 MT.",
+    "low": null,
+    "high": 150000,
+    "unit": "other",
+    "change": "new",
+    "quote": "Our feeling is that possibly over a period of about 2-2.5 years, we should be able to reach basically a capacity which is higher and closer to about 150,000 MT.",
+    "speaker": "Amit Syngle",
+    "page": 25,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q1 FY27 volume growth",
+    "value": "9%",
+    "page": 10,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 decorative value growth",
+    "value": "16.6%",
+    "page": 10,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 standalone top line growth",
+    "value": "17%",
+    "page": 16,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 consolidated top line growth",
+    "value": "18%",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 international business growth",
+    "value": "27%",
+    "page": 15,
+    "quote_verified": true
+   },
+   {
+    "topic": "Innovation revenue contribution",
+    "value": "17%",
+    "page": 11,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Jun 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a71cf39-800d-4765-8131-5d78e54925ce.pdf",
+  "pages": 26,
+  "quarter": "Q4 FY26",
+  "business": "Asian Paints Limited manufactures and sells decorative and industrial coatings, offering comprehensive painting and waterproofing services, along with a wide range of home decor products including kitchens, baths, lighting, furnishings, and window solutions. The main business segments comprise Decorative Coatings, International Operations, Industrial Coatings joint ventures, and Home Decor.",
+  "guidance": [
+   {
+    "topic": "Volume growth outlook",
+    "metric": "volume",
+    "period": "FY27",
+    "said": "The company expects to achieve high single-digit volume growth in the band of 8-10% going forward.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "new",
+    "quote": "we are still confident that demand conditions should continue giving us closer to high single-digit volume growth in the band of about 8 -10%, as we predict going forward.",
+    "speaker": "Amit Syngle",
+    "page": 21,
+    "quote_verified": true
+   },
+   {
+    "topic": "Margin guidance band",
+    "metric": "margin",
+    "period": "FY27",
+    "said": "The company aims to maintain its operating margin guidance band of 18-20% through cost efficiencies, mix improvement, and price increases.",
+    "low": 18,
+    "high": 20,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Absolute endeavor is definitely that you try to remain in the margin band given.",
+    "speaker": "Amit Syngle",
+    "page": 24,
+    "quote_verified": false
+   },
+   {
+    "topic": "Volume-value growth gap",
+    "metric": "volume",
+    "period": "FY27",
+    "said": "The company expects to maintain a volume-value growth gap of about 3-4% moving forward.",
+    "low": 3,
+    "high": 4,
+    "unit": "%",
+    "change": "new",
+    "quote": "We feel that over a period of time, it is good to maintain that 3-4% gap, which would remain from a point of view of overall direction between volume and value.",
+    "speaker": "Amit Syngle",
+    "page": 26,
+    "quote_verified": true
+   },
+   {
+    "topic": "VAM-VAE first phase commissioning",
+    "metric": "capacity",
+    "period": "H1 FY27",
+    "said": "The company expects to commission the first phase of the VAM-VAE backward integration project in the first half of the year.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "we expect to commission first phase in the first half of this year. The VAM-VAE project will bring to us very strong innovation capabilities",
+    "speaker": "Amit Syngle",
+    "page": 12,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Decorative volume and value growth Q4 FY26",
+    "value": "Decorative volume growth of 12.4% and value growth of 10.2% in Q4 FY26",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "Full coatings volume and value growth Q4 FY26",
+    "value": "Coatings volume growth of 12.7% and value growth of 11% in Q4 FY26",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "Standalone PBDIT margin Q4 FY26",
+    "value": "Standalone PBDIT margin at 21.2% for Q4 FY26, higher by 260 bps YoY",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "Consolidated net sales growth Q4 FY26",
+    "value": "Consolidated net sales grew by 11% for Q4 FY26",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "Standalone net sales growth Q4 FY26",
+    "value": "Standalone net sales grew by 10.3% for Q4 FY26",
+    "page": 17,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Feb 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc8c7dd-23d0-4cf2-bcdf-620769ed0d1a.pdf",
+  "pages": 38,
+  "quarter": "Q3 FY26",
+  "business": "Asian Paints Limited is engaged in the manufacturing, selling, and distribution of paints, coatings, home decor products, bath and kitchen fittings, and offers various painting and asset protection services. Its operations span domestic decorative and industrial segments as well as international markets.",
+  "guidance": [
+   {
+    "topic": "PBDIT margin band",
+    "metric": "margin",
+    "period": "coming quarters / FY26",
+    "said": "We would keep the guidance between that 18 and 20% band as we go ahead and that is something which we will endeavour to maintain.",
+    "low": 18,
+    "high": 20,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "So, I would say that we would keep the guidance between that 18 and 20% band as we go ahead and that is something which we will endeavour to maintain.",
+    "speaker": "Amit Syngle",
+    "page": 35,
+    "quote_verified": true
+   },
+   {
+    "topic": "Social skilling training target",
+    "metric": "other",
+    "period": "FY26",
+    "said": "We already trained about 6.7 lakh people here, and this year, as we kind of go ahead, we are gunning for training almost 10 lakh people.",
+    "low": 1000000,
+    "high": 1000000,
+    "unit": "other",
+    "change": "new",
+    "quote": "We already trained about 6.7 lakh people here, and this year, as we kind of go ahead, we are gunning for training almost 10 lakh people.",
+    "speaker": "Amit Syngle",
+    "page": 28,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q3 decorative volume growth",
+    "value": "7.9%",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 decorative value growth",
+    "value": "2.8%",
+    "page": 15,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 all coatings volume growth",
+    "value": "8.3%",
+    "page": 15,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 standalone gross margin",
+    "value": "44.9%",
+    "page": 24,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 consolidated PBDIT margin",
+    "value": "20.1%",
+    "page": 25,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Nov 2025",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e65c90-6bb0-4984-ac71-2a0f0eb4cc7f.pdf",
+  "pages": 30,
+  "quarter": "Q2 FY26",
+  "business": "Asian Paints Ltd sells paints, home decor items, and offers various painting and asset protection services. Its main segments include decorative coatings, industrial coatings, international operations, and home decor products like kitchen, bath, and weatherseal.",
+  "guidance": [
+   {
+    "topic": "FY26 value growth",
+    "metric": "revenue_growth",
+    "period": "FY26",
+    "said": "We are looking at mid-single-digit value growth for the full year.",
+    "low": 4,
+    "high": 6,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "When we look at the next six months, we've already spoken about where we are looking at the overall year going. We are looking at mid-single-digit value growth for the full year.",
+    "speaker": "Amit Syngle",
+    "page": 25,
+    "quote_verified": true
+   },
+   {
+    "topic": "Volume-value growth gap",
+    "metric": "volume",
+    "period": "next six months",
+    "said": "We would anticipate that the gap between the volume and the value would remain in that zone of about 4-5%.",
+    "low": 4,
+    "high": 5,
+    "unit": "%",
+    "change": "new",
+    "quote": "And therefore, we would anticipate that the gap between the volume and the value would remain in that zone of about 4-5%.",
+    "speaker": "Amit Syngle",
+    "page": 25,
+    "quote_verified": true
+   },
+   {
+    "topic": "PBDIT margin band",
+    "metric": "margin",
+    "period": "going forward",
+    "said": "It's good to maintain 18-20% margin as we go ahead.",
+    "low": 18,
+    "high": 20,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Given all this, it is okay to maintain the whole guidance of 18 to 20% PBDIT margin band. I would not qualify whether it should be at an 18% level or a higher level. But it's good to maintain 18-20% margin as we go ahead.",
+    "speaker": "Amit Syngle",
+    "page": 27,
+    "quote_verified": true
+   },
+   {
+    "topic": "VAM VAE project capex",
+    "metric": "capex",
+    "period": "upcoming project",
+    "said": "The VAM VAE project in which we have committed to the project a CAPEX of about Rs. 3,250 crores.",
+    "low": 3250,
+    "high": 3250,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "The second area is the VAM VAE project in which we have committed to the project a CAPEX of about Rs. 3,250 crores. Overall, one part of this project is also nearing completion.",
+    "speaker": "Amit Syngle",
+    "page": 12,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY26 volume growth",
+    "value": "10.9%",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 value growth",
+    "value": "5.8%",
+    "page": 20,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 gross margin",
+    "value": "43.7%",
+    "page": 19,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 international business growth",
+    "value": "9.9%",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "Beautiful Homes stores count",
+    "value": "73",
+    "page": 15,
+    "quote_verified": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,727 @@
+[
+ {
+  "month": "Oct 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b6d277-0ffc-440d-ba8a-2bd9bc3dc43e.pdf",
+  "pages": 20,
+  "quarter": "Q2 FY27",
+  "business": "Polycab India Limited manufactures and sells wires and cables, fast-moving electrical goods (FMEG) including fans, lighting, switches, switchgear, conduits, pipes, fittings, and solar inverters, while also executing EPC projects. Its main operational segments consist of Wires and Cables, FMEG, and EPC.",
+  "guidance": [
+   {
+    "topic": "Wires & Cables EBITDA margin",
+    "metric": "margin",
+    "period": "medium to long term",
+    "said": "The company remains confident of sustaining Wires and Cables EBITDA margins within 11% to 13% over the medium to long term.",
+    "low": 11,
+    "high": 13,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "In line with our Project Spring roadmap, we remain confident of sustaining medium- to long-term EBITDA margins within our guided range of 11% to 13%.",
+    "speaker": "Aditya Nathany",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG revenue growth",
+    "metric": "revenue_growth",
+    "period": "long term",
+    "said": "The company aims to grow its FMEG business at 1.5x to 2x the industry growth rate.",
+    "low": 1.5,
+    "high": 2.0,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "Our objective continues to be growing at 1.5x to 2x of the industry growth rate while steadily enhancing profitability.",
+    "speaker": "Aditya Nathany",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG EBITDA margin",
+    "metric": "margin",
+    "period": "FY30",
+    "said": "The company expects FMEG EBITDA margins to reach a range of 8% to 10% over the long term.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "So over the longer term, I believe we would end up in that kind of a range of 8% to 10% of the EBITDA margin.",
+    "speaker": "Aditya Nathany",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "EPC EBIT margin",
+    "metric": "margin",
+    "period": "medium to long term",
+    "said": "Sustainable EBIT margins for the EPC business are expected to remain in the high single-digit range over the medium to long term.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Over the medium- to long-term, we continue to expect sustainable margins for the EPC business to remain in the high single-digit range, supported by disciplined project selection, efficient execution, and a healthy order pipeline.",
+    "speaker": "Aditya Nathany",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "Working capital cycle",
+    "metric": "other",
+    "period": "long term",
+    "said": "The working capital cycle is expected to trend towards the long-term operating range of 45 to 50 days.",
+    "low": 45,
+    "high": 50,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "As these benefits gradually normalize, we expect the working capital cycle to trend towards our long-term operating range of 45 to 50 days.",
+    "speaker": "Aditya Nathany",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Wires & Cables volume growth",
+    "metric": "volume",
+    "period": "long term",
+    "said": "The company targets wires and cables volume growth at 1.5x of the overall market growth rate.",
+    "low": 1.5,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "What we have called out already, as an anchor to look into the volume growth, is that whatever the market grows, we will do 1.5x of that in cable and wires.",
+    "speaker": "Aditya Nathany",
+    "page": 13,
+    "quote_verified": true
+   },
+   {
+    "topic": "EHV plant commissioning",
+    "metric": "capacity",
+    "period": "FY28",
+    "said": "The Extra High Voltage (EHV) plant commissioning is expected during FY28.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "new",
+    "quote": "in terms of our EHV plant timelines, we are expecting the EHV plant to now commission somewhere in FY 2028, the next year, though, so FY28.",
+    "speaker": "Aditya Nathany",
+    "page": 18,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Consolidated revenue growth",
+    "value": "53% YoY growth",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Profit after tax",
+    "value": "INR 9,900 million (up 43% YoY)",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Consolidated EBITDA margin",
+    "value": "14.4%",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net cash position",
+    "value": "INR 45.2 billion",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Capital expenditure in H1 FY27",
+    "value": "INR 6.1 billion",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Wires and Cables segment revenue growth",
+    "value": "47% YoY growth",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Jul 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e47a217c-cefa-4ff6-8e34-6bbd07d42b13.pdf",
+  "pages": 19,
+  "quarter": "Q1 FY27",
+  "business": "Polycab India Limited manufactures and sells wires and cables, and operates a fast-moving electrical goods (FMEG) business encompassing fans, lighting, switches, switchgears, solar products, and conduit pipes. The company also undertakes engineering, procurement, and construction (EPC) projects.",
+  "guidance": [
+   {
+    "topic": "Project Spring FMEG margin target",
+    "metric": "margin",
+    "period": "FY2030",
+    "said": "Project Spring targets EBITDA margins of 8% to 10% by FY 2030 for the FMEG business.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "EBIT margins for the quarter were 8%, very much in line with the milestones laid out under Project Spring, where we target EBITDA margins of 8% to 10% by FY 2030.",
+    "speaker": "Shashank Yagnick",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Project Spring wires and cables margin",
+    "metric": "margin",
+    "period": "medium- to long-term",
+    "said": "The medium- to long-term EBIT margin guidance for the Wires & Cables business is maintained at 11% to 13%.",
+    "low": 11,
+    "high": 13,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Consistent with our Project Spring roadmap, we continue to maintain our medium- to long-term margin guidance of 11% to 13% for this business.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG revenue growth outperformance",
+    "metric": "revenue_growth",
+    "period": "medium to long term",
+    "said": "The strategic priority for FMEG is to grow at 1.5x to 2x of industry growth.",
+    "low": 1.5,
+    "high": 2.0,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "Our strategic priorities remain unchanged to grow at 1.5x to 2x of the industry growth while progressively enhancing profitability.",
+    "speaker": "Shashank Yagnick",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Overall revenue and volume market growth",
+    "metric": "revenue_growth",
+    "period": "medium to long term",
+    "said": "The company guides to grow at 1.5x of market growth which is a mix of both volume and value.",
+    "low": 1.5,
+    "high": null,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "But I think we have always guided that we will do 1.5x of market growth, which is a mix of both volume and value.",
+    "speaker": "Shashank Yagnick",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "Long term export contribution target",
+    "metric": "revenue_growth",
+    "period": "by 2030",
+    "said": "Export top line contribution is targeted to go north of 10% of overall top line by 2030.",
+    "low": 10,
+    "high": null,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "We have given our guidance of going north of 10% of our overall top line by 2030.",
+    "speaker": "Shashank Yagnick",
+    "page": 19,
+    "quote_verified": true
+   },
+   {
+    "topic": "Working capital cycle normalization",
+    "metric": "other",
+    "period": "medium-term",
+    "said": "The working capital cycle is expected to settle within the long-term operating range of 45 to 50 days.",
+    "low": 45,
+    "high": 50,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "As these effects normalize, we expect the working capital cycle to settle within our long-term operating range of 45 to 50 days.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "EPC operating margins",
+    "metric": "margin",
+    "period": "medium to long term",
+    "said": "Operating margins for the EPC business are expected to remain in the high single-digit range.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Over the medium to long term, we continue to expect sustainable operating margins for the EPC business to remain in the high single-digit range.",
+    "speaker": "Shashank Yagnick",
+    "page": 6,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Consolidated revenue growth",
+    "value": "39% YoY",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Consolidated EBITDA growth and margin",
+    "value": "32% YoY growth, 13.8% margin",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Profit After Tax (PAT)",
+    "value": "INR 7,967 million, 33% YoY growth",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Wires and Cables segment growth",
+    "value": "39% YoY",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG segment growth",
+    "value": "71% YoY",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Capital expenditure",
+    "value": "INR 3.2 billion",
+    "page": 5,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "May 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66f17ac-c40f-4309-afca-3e66af0956a0.pdf",
+  "pages": 19,
+  "quarter": "Q4 FY26",
+  "business": "Polycab India Limited manufactures and sells wires and cables, and operates in the Fast Moving Electrical Goods (FMEG) segment which includes fans, lighting, solar products, switchgears, and switches. The company also undertakes engineering, procurement, and construction (EPC) projects.",
+  "guidance": [
+   {
+    "topic": "Project Spring 5-year capex",
+    "metric": "capex",
+    "period": "next 5 years",
+    "said": "We remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years.",
+    "low": 60000,
+    "high": 80000,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "We remain on track to execute our planned capex program of INR 60 billion to INR 80 billion over the next 5 years, which will further enhance our capabilities, scale and innovation.",
+    "speaker": "Shashank Yagnick",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Export contribution by FY30",
+    "metric": "other",
+    "period": "FY30",
+    "said": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030.",
+    "low": 10,
+    "high": null,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "We remain firm on track to achieve our target of greater than 10% contribution from exports by financial year 2030.",
+    "speaker": "Shashank Yagnick",
+    "page": 8,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG EBITDA margin goal",
+    "metric": "margin",
+    "period": "FY30",
+    "said": "We are progressing towards our EBITDA margin goal of 8% to 10% in FMEG by FY2030.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "and progressing towards our EBITDA margin goal of 8% to 10% by FY2030.",
+    "speaker": "Shashank Yagnick",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "Long term EBITDA margin",
+    "metric": "margin",
+    "period": "long term",
+    "said": "Over long term, we should expect 11% to 13% EBITDA margin and in the near to mid term, we may expect 12% to 14% EBITDA.",
+    "low": 11,
+    "high": 13,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "that over long term, we should expect 11% to 13% EBITDA margin. and in the near to mid term, we may expect 12% to 14% EBITDA.",
+    "speaker": "Shashank Yagnick",
+    "page": 13,
+    "quote_verified": true
+   },
+   {
+    "topic": "Annual capex run rate",
+    "metric": "capex",
+    "period": "annual",
+    "said": "We are continuing to pump INR 1,200 crores to INR 1,600 crores every year, adding capacity.",
+    "low": 1200,
+    "high": 1600,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "And we are continuing to pump INR 1,200 crores to INR 1,600 crores every year, adding capacity.",
+    "speaker": "Shashank Yagnick",
+    "page": 14,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Consolidated revenue growth Q4 FY26",
+    "value": "27% YoY",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "EBITDA margin Q4 FY26",
+    "value": "13.1%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net cash position",
+    "value": "INR 41.9 billion",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Full year revenue FY26",
+    "value": "crossed INR 285 billion",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Full year capex FY26",
+    "value": "INR 14.8 billion",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Wires and Cables revenue growth Q4 FY26",
+    "value": "30% YoY",
+    "page": 7,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Jan 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+  "pages": 20,
+  "quarter": "Q3 FY26",
+  "business": "Polycab India Limited manufactures and sells Wires and Cables (W&C), and operates in Fast Moving Electrical Goods (FMEG) including solar products, fans, switches, and switchgears, alongside undertaking Engineering, Procurement, and Construction (EPC) projects.",
+  "guidance": [
+   {
+    "topic": "Project Spring annual capex",
+    "metric": "capex",
+    "period": "through FY30",
+    "said": "Project Spring guidance of investing 12 billion to 16 billion annually through FY30.",
+    "low": 12,
+    "high": 16,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "in-line with our Project Spring guidance of investing ₹ 12 billion to ₹ 16 billion annually through FY30.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG industry growth target",
+    "metric": "revenue_growth",
+    "period": "by FY30",
+    "said": "Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30.",
+    "low": 1.5,
+    "high": 2.0,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG EBITDA margin target",
+    "metric": "margin",
+    "period": "by FY30",
+    "said": "Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "EPC long-term operating margin",
+    "metric": "margin",
+    "period": "mid- to long term",
+    "said": "Annual sustainable operating margin is expected to remain in the high single digits over mid- to long term.",
+    "low": 7,
+    "high": 9,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "annual sustainable operating margin is expected to remain in the high single digits over mid- to long term.",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "BharatNet project revenue generation",
+    "metric": "revenue_growth",
+    "period": "next 3 years",
+    "said": "BharatNet scheme is expected to generate 4.5 billion over the next 3 years for project execution.",
+    "low": 4.5,
+    "high": 4.5,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "commenced execution of our existing orders under BharatNet scheme, which is expected to generate ₹ 4.5 billion over the next 3 years",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "Working capital cycle normalization",
+    "metric": "other",
+    "period": "coming quarters",
+    "said": "We expect working capital cycle to normalize to our long-term steady range of 50 to 55 days in the coming quarters.",
+    "low": 50,
+    "high": 55,
+    "unit": "other",
+    "change": "new",
+    "quote": "We expect this to normalize to our long-term steady range of 50 to 55 days in the coming quarters.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Project Spring long-term margin",
+    "metric": "margin",
+    "period": "long term",
+    "said": "Project Spring guidance of 11% to 13% for the long term.",
+    "low": 11,
+    "high": 13,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "to refer to our Project Spring guidance, we've given a long-term guidance of 11% to 13%.",
+    "speaker": "Shashank Yagnick",
+    "page": 15,
+    "quote_verified": true
+   },
+   {
+    "topic": "A&P spend target",
+    "metric": "other",
+    "period": "every year going ahead",
+    "said": "We want to take A&P spends up to 3% to 5% of B2C top-line gradually.",
+    "low": 3,
+    "high": 5,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "going ahead, as we've been guiding, we want to take A&P spends up to 3% to 5% of B2C top-line, and that is something that we'll plan to do gradually.",
+    "speaker": "Chirayu Upadhyaya",
+    "page": 14,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Consolidated revenue growth YoY",
+    "value": "46%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "EBITDA margin",
+    "value": "12.7%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "PAT",
+    "value": "Rs 6.3 billion",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net cash position",
+    "value": "Rs 30.3 billion",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Domestic W&C revenue growth YoY",
+    "value": "59%",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Domestic W&C volume growth YoY",
+    "value": "40%",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Jan 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c54bf2c3-22fa-45e1-bf1a-2194e7b46183.pdf",
+  "pages": 20,
+  "quarter": "Q3 FY26",
+  "business": "Polycab India Limited manufactures and sells Wires and Cables (W&C), and operates in Fast Moving Electrical Goods (FMEG) including solar products, fans, switches, and switchgears, alongside undertaking Engineering, Procurement, and Construction (EPC) projects.",
+  "guidance": [
+   {
+    "topic": "Project Spring annual capex",
+    "metric": "capex",
+    "period": "through FY30",
+    "said": "Project Spring guidance of investing 12 billion to 16 billion annually through FY30.",
+    "low": 12,
+    "high": 16,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "in-line with our Project Spring guidance of investing ₹ 12 billion to ₹ 16 billion annually through FY30.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG industry growth target",
+    "metric": "revenue_growth",
+    "period": "by FY30",
+    "said": "Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30.",
+    "low": 1.5,
+    "high": 2.0,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "FMEG EBITDA margin target",
+    "metric": "margin",
+    "period": "by FY30",
+    "said": "Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30.",
+    "low": 8,
+    "high": 10,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "remain on track to achieve our Project Spring targets of 1.5x - 2x industry growth and EBITDA margins in the range of 8% to 10% by FY30",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "EPC long-term operating margin",
+    "metric": "margin",
+    "period": "mid- to long term",
+    "said": "Annual sustainable operating margin is expected to remain in the high single digits over mid- to long term.",
+    "low": 7,
+    "high": 9,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "annual sustainable operating margin is expected to remain in the high single digits over mid- to long term.",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "BharatNet project revenue generation",
+    "metric": "revenue_growth",
+    "period": "next 3 years",
+    "said": "BharatNet scheme is expected to generate 4.5 billion over the next 3 years for project execution.",
+    "low": 4.5,
+    "high": 4.5,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "commenced execution of our existing orders under BharatNet scheme, which is expected to generate ₹ 4.5 billion over the next 3 years",
+    "speaker": "Shashank Yagnick",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "Working capital cycle normalization",
+    "metric": "other",
+    "period": "coming quarters",
+    "said": "We expect working capital cycle to normalize to our long-term steady range of 50 to 55 days in the coming quarters.",
+    "low": 50,
+    "high": 55,
+    "unit": "other",
+    "change": "new",
+    "quote": "We expect this to normalize to our long-term steady range of 50 to 55 days in the coming quarters.",
+    "speaker": "Shashank Yagnick",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Project Spring long-term margin",
+    "metric": "margin",
+    "period": "long term",
+    "said": "Project Spring guidance of 11% to 13% for the long term.",
+    "low": 11,
+    "high": 13,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "to refer to our Project Spring guidance, we've given a long-term guidance of 11% to 13%.",
+    "speaker": "Shashank Yagnick",
+    "page": 15,
+    "quote_verified": true
+   },
+   {
+    "topic": "A&P spend target",
+    "metric": "other",
+    "period": "every year going ahead",
+    "said": "We want to take A&P spends up to 3% to 5% of B2C top-line gradually.",
+    "low": 3,
+    "high": 5,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "going ahead, as we've been guiding, we want to take A&P spends up to 3% to 5% of B2C top-line, and that is something that we'll plan to do gradually.",
+    "speaker": "Chirayu Upadhyaya",
+    "page": 14,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Consolidated revenue growth YoY",
+    "value": "46%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "EBITDA margin",
+    "value": "12.7%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "PAT",
+    "value": "Rs 6.3 billion",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net cash position",
+    "value": "Rs 30.3 billion",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Domestic W&C revenue growth YoY",
+    "value": "59%",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Domestic W&C volume growth YoY",
+    "value": "40%",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ }
+]

@@ -1,0 +1,381 @@
+[
+ {
+  "month": "Aug 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deef7a97-c6ee-4727-804d-f00f23f54f71.pdf",
+  "pages": 38,
+  "quarter": "Q2 FY27",
+  "business": "Avenue Supermarts Limited operates retail supermarkets under the DMart brand offering food, non-food, and apparel products, along with an e-commerce grocery business via DMart Ready. The company focuses on everyday low prices and everyday low-cost operations across a cluster-based store network.",
+  "guidance": [
+   {
+    "topic": "Store base expansion target",
+    "metric": "capacity",
+    "period": "annually",
+    "said": "Internally, our benchmarks will remain that we should be opening around 15% of our store base as the number that we want to increase annually.",
+    "low": 15,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "internally, our benchmarks will remain that we should be opening around 15% of our store base as the number that we want to increase annually.",
+    "speaker": "Anshul Asawa",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Gross margin guidance",
+    "metric": "margin",
+    "period": "long term",
+    "said": "Our healthy gross margin is in the range of 14% to 15%, which keeps us very, very competitive.",
+    "low": 14,
+    "high": 15,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "our healthy gross margin is in the range of 14% to 15%, which keeps us very, very competitive, and that's the moat that we look at.",
+    "speaker": "Niladri Deb",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "General merchandise contribution",
+    "metric": "margin",
+    "period": "medium to long term",
+    "said": "We expect this particular part of the business to be somewhere in that 22% to 23% kind of a range.",
+    "low": 22,
+    "high": 23,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "we expect this particular part of the business to be somewhere in that 22% to 23% kind of a range.",
+    "speaker": "Anshul Asawa",
+    "page": 10,
+    "quote_verified": true
+   },
+   {
+    "topic": "Net margin guidance",
+    "metric": "margin",
+    "period": "long term",
+    "said": "Net margin also, we believe that if we can be around that 5% type of a range, ballpark range, we are quite happy with that.",
+    "low": 5,
+    "high": 5,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Net margin also, we believe that if we can be around that 5% type of a range, ballpark range, we are quite happy with that.",
+    "speaker": "Anshul Asawa",
+    "page": 19,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "FY26 turnover",
+    "value": "INR67,000 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY26 EBITDA margin",
+    "value": "7.8%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY26 Profit after tax",
+    "value": "INR3,224 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Like-for-like store growth",
+    "value": "8.1%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Retail business area",
+    "value": "20.6 million square feet",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Total debt",
+    "value": "INR2,267 crores",
+    "page": 5,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2025",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cebd20-3888-45ae-8c70-85fd68d60a74.pdf",
+  "pages": 44,
+  "quarter": "Q1 FY26",
+  "business": "Avenue Supermarts operates retail stores under the DMart brand, selling food, non-food, and general merchandise & apparel products. It also operates an e-commerce home delivery business under DMart Ready.",
+  "guidance": [
+   {
+    "topic": "Store additions",
+    "metric": "capacity",
+    "period": "next year",
+    "said": "Store additions will not be less than 50 stores.",
+    "low": 50,
+    "high": null,
+    "unit": "stores",
+    "change": "new",
+    "quote": "I mean, it won't be less than 50. I mean, if you're talking so much about it.",
+    "speaker": "Neville Noronha",
+    "page": 20,
+    "quote_verified": true
+   },
+   {
+    "topic": "Store expansion rate",
+    "metric": "capacity",
+    "period": "every year",
+    "said": "The right method of expansion in the offline space is to open on an average every year at least 10% to 15% or maybe 10% to 20% of your base stores.",
+    "low": 10,
+    "high": 20,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "Like we have always said that the right method of expansion in the offline space is to open on an average every year at least 10% to 15% or maybe 10% to 20% of your base stores – every year.",
+    "speaker": "Neville Noronha",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "DMart Ready breakeven",
+    "metric": "profit",
+    "period": "a couple of years",
+    "said": "DMart Ready is a business that can be broken even in a couple of years.",
+    "low": null,
+    "high": null,
+    "unit": "other",
+    "change": "new",
+    "quote": "But broadly, we feel that this is a business that can be broken even in a couple of years. So that's broadly what we feel about this.",
+    "speaker": "Neville Noronha",
+    "page": 19,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Standalone revenue",
+    "value": "INR 57,790 crores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "EBITDA margin",
+    "value": "7.9%",
+    "page": 4,
+    "quote_verified": false
+   },
+   {
+    "topic": "PAT margin",
+    "value": "5.1%",
+    "page": 4,
+    "quote_verified": false
+   },
+   {
+    "topic": "Consolidated sales",
+    "value": "INR 59,358 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Store additions",
+    "value": "50 stores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Like-for-like growth",
+    "value": "8.4%",
+    "page": 4,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2024",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=665e24d3-eb58-4e20-b8aa-7a32f9aa70c3.pdf",
+  "pages": 59,
+  "quarter": "Q1 FY25",
+  "business": "Avenue Supermarts Limited operates hypermarkets under the brand name DMart, offering a wide range of food, non-food FMCG, general merchandise, and apparel products. The company also runs an e-commerce business under DMart Ready, providing home delivery and pick-up services for grocery and daily essentials.",
+  "guidance": [
+   {
+    "topic": "annual store additions",
+    "metric": "capacity",
+    "period": "next 3 years",
+    "said": "You can take a range of 40 to 60 over the next three years.",
+    "low": 40,
+    "high": 60,
+    "unit": "stores",
+    "change": "reiterated",
+    "quote": "So you can take a range of 40 to 60 over the next three years.",
+    "speaker": "Neville Noronha",
+    "page": 17,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "FY24 revenue from operations",
+    "value": "INR49,533 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY24 EBITDA margin",
+    "value": "8.3%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY24 PAT delivery",
+    "value": "INR2,695 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY24 net retail business area",
+    "value": "15.1 million square feet",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY24 retail area opened",
+    "value": "1.8 million square feet",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Avenue E-commerce FY24 sales",
+    "value": "INR2,900 crores",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Jul 2024",
+  "url": "https://api.dmartindia.com/corporate/content/file/v1/2/nxWmnRKchjDixyjyLNUUq0wp1722949766/Transcript%20of%20Analyst%20Institutional%20Investor%20Call%20-%2030.07.2024.pdf",
+  "pages": 59,
+  "quarter": "Q1 FY25",
+  "business": "Avenue Supermarts Limited operates a chain of supermarkets under the brand name DMart, offering foods, non-foods FMCG, general merchandise, and apparel products. The company also operates an e-commerce grocery and home delivery business under the brand name DMart Ready.",
+  "guidance": [
+   {
+    "topic": "Store additions",
+    "metric": "capacity",
+    "period": "FY25",
+    "said": "We are primed and ready in terms of opening around 40-50 stores.",
+    "low": 40,
+    "high": 50,
+    "unit": "stores",
+    "change": "reiterated",
+    "quote": "We are primed and ready in terms of opening around 40-50 stores. I mean anything between that is what we are ready and we will deliver broadly.",
+    "speaker": "Neville Noronha",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "Long term store additions",
+    "metric": "capacity",
+    "period": "next 2-3 years",
+    "said": "You can take a range of 40 to 60 over the next three years.",
+    "low": 40,
+    "high": 60,
+    "unit": "stores",
+    "change": "reiterated",
+    "quote": "So, you can take a range of 40 to 60 over the next three years.",
+    "speaker": "Neville Noronha",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY25 GMA contribution",
+    "metric": "margin",
+    "period": "FY25",
+    "said": "This financial year will be equal to or better than FY 24 GMA contribution.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "With a reasonable confidence, I can say that, this financial year will be equal to or better than FY '24 GMA contribution.",
+    "speaker": "Neville Noronha",
+    "page": 29,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Standalone revenue from operations",
+    "value": "INR 49,533 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Standalone EBITDA margin",
+    "value": "8.3%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Standalone PAT",
+    "value": "INR 2,695 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Like-for-like growth",
+    "value": "9.9%",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Store additions FY24",
+    "value": "41 stores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Retail business area",
+    "value": "15.1 million sq ft",
+    "page": 5,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2023",
+  "url": "https://api.dmartindia.com/corporate/content/file/v1/6/9CgmGcMoKSLXpvuus3iRJ16p1692274965/Transcript%20of%2023rd%20AGM%20-10.08.2023.pdf",
+  "pages": 14,
+  "quarter": "FY23",
+  "business": "Avenue Supermarts Limited operates retail supermarkets under the DMart brand, selling a wide range of grocery, FMCG, and daily essential products through physical stores as well as online via DMart Ready. The company focuses on a cluster-based expansion strategy across large and small towns.",
+  "guidance": [
+   {
+    "topic": "Gross margins cap",
+    "metric": "margin",
+    "period": "future",
+    "said": "Gross margins are something that is sacrosanct and we don't want to earn more than 15%.",
+    "low": null,
+    "high": 15,
+    "unit": "%",
+    "change": "reiterated",
+    "quote": "gross margins are something that is sacrosanct. We don't want to earn more than 15% and below that whatever happens is a factor of market forces.",
+    "speaker": "Ignatius Navil Noronha",
+    "page": 13,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Store count FY23",
+    "value": "324 stores",
+    "page": 5,
+    "quote_verified": false
+   },
+   {
+    "topic": "New store openings FY23",
+    "value": "40 stores",
+    "page": 4,
+    "quote_verified": true
+   }
+  ]
+ }
+]

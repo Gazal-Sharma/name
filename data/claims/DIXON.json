@@ -1,0 +1,615 @@
+[
+ {
+  "month": "Nov 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995a3a71-4a1e-4c1f-a29a-6c6747e4ca10.pdf",
+  "pages": 24,
+  "quarter": "Q2 FY27",
+  "business": "Dixon Technologies (India) Limited is an electronics manufacturing services (EMS) provider engaged in designing and manufacturing products such as mobile phones, consumer electronics (LED TVs, refrigerators), home appliances (washing machines), lighting, IT hardware, telecom and networking products, and components like camera and display modules.",
+  "guidance": [
+   {
+    "topic": "FY27 mobile manufacturing volume",
+    "metric": "volume",
+    "period": "current fiscal",
+    "said": "We feel we should be somewhere around 33-34 million in mobile manufacturing volume for the current fiscal, excluding Vivo quantities.",
+    "low": 33,
+    "high": 34,
+    "unit": "other",
+    "change": "new",
+    "quote": "And with the outlook for H2, we feel we should be somewhere around 33-34 million. And in this, I am not including the Vivo quantities.",
+    "speaker": "Atul Lall",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 IT hardware revenue",
+    "metric": "revenue_growth",
+    "period": "current fiscal",
+    "said": "We feel confident that we are going to be somewhere around INR 6,000 crores in this business this year itself.",
+    "low": 6000,
+    "high": 6500,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "And this year itself we feel confident that we are going to be somewhere around INR 6,000 crores in this business.",
+    "speaker": "Atul Lall",
+    "page": 10,
+    "quote_verified": true
+   },
+   {
+    "topic": "IT hardware revenue potential",
+    "metric": "revenue_growth",
+    "period": "next couple of years",
+    "said": "We feel that in next couple of years, this is going to be almost INR 15,000 crore to INR 20,000 crore business for us.",
+    "low": 15000,
+    "high": 20000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "We feel that in next couple of years, this is going to be almost INR 15,000 crore to INR 20,000 crore business for us.",
+    "speaker": "Atul Lall",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "IT PLI 2 capex commitment",
+    "metric": "capex",
+    "period": "FY27/future",
+    "said": "We are now transitioning from hybrid category with INR 250 crores of CAPEX commitment to global category with INR 500 crores CAPEX requirement.",
+    "low": 500,
+    "high": 500,
+    "unit": "Rs Cr",
+    "change": "raised",
+    "quote": "we are now transitioning from hybrid category with INR 250 crores of CAPEX commitment to global category with INR 500 crores CAPEX requirement under IT PLI 2",
+    "speaker": "Atul Lall",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 total capex run rate",
+    "metric": "capex",
+    "period": "FY27",
+    "said": "We should close the year with INR 1,200 crores in capex.",
+    "low": 1200,
+    "high": 1200,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "So we should close the year with INR 1,200 crores. Of course, one has to do the numbers for next year, but broadly that should be the run rate for next year",
+    "speaker": "Saurabh Gupta",
+    "page": 22,
+    "quote_verified": true
+   },
+   {
+    "topic": "Display business revenue potential",
+    "metric": "revenue_growth",
+    "period": "next couple of years",
+    "said": "Once it is completely ramped up in next couple of years, it can generate revenues of closer to INR 6,000 crores to INR 7,000 crores.",
+    "low": 6000,
+    "high": 7000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "once it is completely ramped up in next couple of years, it can generate revenues of closer to INR 6,000 crores to INR 7,000 crores.",
+    "speaker": "Saurabh Gupta",
+    "page": 18,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q Tech revenue target",
+    "metric": "revenue_growth",
+    "period": "next financial year",
+    "said": "Broadly we should be in a kind of a number of almost somewhere between INR 2,500 crores to INR 3,000 odd crores for Q Tech next year.",
+    "low": 2500,
+    "high": 3000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "broadly we should be in a kind of a number of almost somewhere between INR 2,500 crores to INR 3,000 odd crores. That is what we should be targeting for.",
+    "speaker": "Saurabh Gupta",
+    "page": 18,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY27 revenue",
+    "value": "INR 21,806 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 EBITDA",
+    "value": "INR 609 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 PAT",
+    "value": "INR 293 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Mobile and other EMS revenue",
+    "value": "Rs. 20,093 crores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Telecom and networking revenue",
+    "value": "INR 1,837 crores",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "IT hardware products revenue",
+    "value": "Rs. 2,160 crores",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Aug 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce2ca16-3043-48f4-97f9-a62a6a086c2f.pdf",
+  "pages": 21,
+  "quarter": "Q1 FY27",
+  "business": "Dixon Technologies (India) Limited manufactures and deals in electronics products including mobile phones, home appliances, lighting, consumer electronics, IT hardware, telecom and networking products, and components. The company operates across multiple segments such as mobile and EMS, home appliances, lighting, consumer electronics, and IT hardware.",
+  "guidance": [
+   {
+    "topic": "Telecom segment revenue FY27",
+    "metric": "revenue_growth",
+    "period": "FY27",
+    "said": "We feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal.",
+    "low": 6700,
+    "high": 7000,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "and we feel, as I mentioned earlier, we're going to be somewhere between INR6,700 crores to INR7,000 crores in this fiscal.",
+    "speaker": "Atul Lall",
+    "page": 20,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 mobile volume growth",
+    "metric": "volume",
+    "period": "Q2 FY27",
+    "said": "We expect 20% to 25% volume growth quarter-on-quarter growth as consumer demand strengthens and we have a strong order book.",
+    "low": 20,
+    "high": 25,
+    "unit": "%",
+    "change": "new",
+    "quote": "Our market position, customer engagement and manufacturing capabilities remain intact, and we expect 20% to 25% volume growth quarter-on-quarter growth as consumer demand strengthens and we have a strong order book.",
+    "speaker": "Atul Lall",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Camera module capacity expansion",
+    "metric": "capacity",
+    "period": "next 15 to 18 months",
+    "said": "We are expanding the capacities of camera module in subsidiary Q Tech, which is an ECMS beneficiary for smartphones from 70 million annually to 180 million to 190 million annually over the next 15 to 18 months.",
+    "low": 180,
+    "high": 190,
+    "unit": "other",
+    "change": "new",
+    "quote": "We are expanding the capacities of camera module in subsidiary Q Tech, which is an ECMS beneficiary for smartphones from 70 million annually to 180 million to 190 million annually over the next 15 to 18 months",
+    "speaker": "Atul Lall",
+    "page": 5,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q1 FY27 Revenue",
+    "value": "INR15,557 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 EBITDA",
+    "value": "INR472 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 PAT",
+    "value": "INR218 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 Mobile and EMS revenue",
+    "value": "INR14,179 crores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 Home appliances revenue",
+    "value": "INR382 crores",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q1 FY27 Consumer electronics revenue",
+    "value": "INR987 crores",
+    "page": 6,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "May 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b72f07-55a6-4503-91fd-ed3b2c209e96.pdf",
+  "pages": 21,
+  "quarter": "Q4 FY26",
+  "business": "Dixon Technologies (India) Limited is an electronic manufacturing services (EMS) provider manufacturing products such as mobiles, lighting, consumer electronics, home appliances, IT hardware, and telecom equipment. It operates across multiple segments including mobile and EMS, home appliances, lighting, consumer electronics, and IT hardware.",
+  "guidance": [
+   {
+    "topic": "FY27 IT hardware revenue",
+    "metric": "revenue_growth",
+    "period": "current fiscal",
+    "said": "We feel that our revenue in this fiscal is going to be more than INR4,000 crores.",
+    "low": 4000,
+    "high": null,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "We feel that our revenue in this fiscal is going to be more than INR4,000 crores.",
+    "speaker": "Atul Lall",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 telecom revenue growth",
+    "metric": "revenue_growth",
+    "period": "current fiscal",
+    "said": "We expect this vertical to deliver high double-digit revenue growth in the current fiscal.",
+    "low": null,
+    "high": null,
+    "unit": "%",
+    "change": "new",
+    "quote": "We expect this vertical to deliver high double-digit revenue growth in the current fiscal.",
+    "speaker": "Atul Lall",
+    "page": 5,
+    "quote_verified": true
+   },
+   {
+    "topic": "Lighting revenue 2x growth",
+    "metric": "revenue_growth",
+    "period": "current fiscal",
+    "said": "The JV with Signify continues to deliver strong revenue growth, and we expect the revenues to grow almost to 2x in the current fiscal.",
+    "low": 2,
+    "high": 2,
+    "unit": "other",
+    "change": "new",
+    "quote": "The JV with Signify continues to deliver strong revenue growth, and we expect the revenues to grow almost to 2x in the current fiscal.",
+    "speaker": "Atul Lall",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q Tech capacity expansion",
+    "metric": "capacity",
+    "period": "next 15 to 18 months",
+    "said": "We will be expanding the capacities of camera module and a subsidiary Q Tech... from 70 million units annually to around 180 million units to 190 million units annually over the next 15 to 18 months",
+    "low": 180,
+    "high": 190,
+    "unit": "other",
+    "change": "new",
+    "quote": "We will be expanding the capacities of camera module and a subsidiary Q Tech, which is an ECMS beneficiary for smartphones from 70 million units annually to around 180 million units to 190 million units annually over the next 15 to 18 months",
+    "speaker": "Atul Lall",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 revenue without Vivo",
+    "metric": "revenue_growth",
+    "period": "next year",
+    "said": "Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat.",
+    "low": 56000,
+    "high": null,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "Next year, we are targeting almost INR56,000 crores without the Vivo numbers, and mobile volume being flat.",
+    "speaker": "Atul Lall",
+    "page": 15,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q4 FY26 revenue",
+    "value": "INR10,520 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 EBITDA",
+    "value": "INR418 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q4 FY26 PAT",
+    "value": "INR192 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY26 full year revenue",
+    "value": "INR48,893 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY26 full year EBITDA",
+    "value": "INR1,887 crores",
+    "page": 3,
+    "quote_verified": false
+   },
+   {
+    "topic": "FY26 full year PAT",
+    "value": "INR845 crores",
+    "page": 3,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Feb 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad6e72f1-b5f8-4a75-8e45-f2e88c7525e0.pdf",
+  "pages": 21,
+  "quarter": "Q3 FY26",
+  "business": "Dixon Technologies (India) Limited is a homegrown electronics manufacturing services (EMS) company producing consumer electronics, mobile phones, home appliances, lighting, telecom equipment, and IT hardware products. It operates across multiple segments including mobile and EMS, consumer electronics, home appliances, lighting, telecom, and IT hardware, while expanding into component manufacturing like displays, camera modules, and memory.",
+  "guidance": [
+   {
+    "topic": "FY27 mobile business margins",
+    "metric": "margin",
+    "period": "FY27",
+    "said": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business.",
+    "low": 2.8,
+    "high": 3.2,
+    "unit": "%",
+    "change": "unclear",
+    "quote": "We still feel that we should be able to have a margin of somewhere between 2.8% to 3.1%, 3.2% in our mobile phone business.",
+    "speaker": "Atul Lall",
+    "page": 10,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY26 capex",
+    "metric": "capex",
+    "period": "FY26",
+    "said": "And we feel that in the overall fiscal, it should be somewhere between INR1,100 crores, INR1,200 crores.",
+    "low": 1100,
+    "high": 1200,
+    "unit": "Rs Cr",
+    "change": "unclear",
+    "quote": "And we feel that in the overall fiscal, it should be somewhere between INR1,100 crores, INR1,200 crores.",
+    "speaker": "Atul Lall",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 IT hardware revenue",
+    "metric": "revenue_growth",
+    "period": "FY27",
+    "said": "We feel that for next year, the numbers are going to be somewhere around INR3,500 crores to INR4,000 crores.",
+    "low": 3500,
+    "high": 4000,
+    "unit": "Rs Cr",
+    "change": "unclear",
+    "quote": "We feel that for next year, the numbers are going to be somewhere around INR3,500 crores to INR4,000 crores.",
+    "speaker": "Atul Lall",
+    "page": 17,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 Longcheer mobile units",
+    "metric": "volume",
+    "period": "FY27",
+    "said": "We feel that in '26-'27, it will be around 8 million to 10 million units.",
+    "low": 8,
+    "high": 10,
+    "unit": "other",
+    "change": "unclear",
+    "quote": "We feel that in '26-'27, it will be around 8 million to 10 million units.",
+    "speaker": "Atul Lall",
+    "page": 19,
+    "quote_verified": false
+   },
+   {
+    "topic": "FY27 IT hardware revenue",
+    "metric": "revenue_growth",
+    "period": "FY27",
+    "said": "We feel that this year the revenue should be in the range of INR1,500-odd crores and for next year INR3,500 crores to INR4,000 crores.",
+    "low": 3500,
+    "high": 4000,
+    "unit": "Rs Cr",
+    "change": "unclear",
+    "quote": "We feel that this year the revenue should be in the range of INR1,500-odd crores. We have a decent order book for next year.",
+    "speaker": "Atul Lall",
+    "page": 17,
+    "quote_verified": false
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q3 FY26 consolidated operating revenue",
+    "value": "INR10,678 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 consolidated operating EBITDA",
+    "value": "INR421 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 consolidated operating PAT",
+    "value": "INR214 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 smartphone volumes",
+    "value": "6.9 million",
+    "page": 7,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 Mobile and EMS revenue",
+    "value": "INR9,750 crores",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q3 FY26 Consumer Electronics revenue",
+    "value": "INR567 crores",
+    "page": 5,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
+  "month": "Oct 2025",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95dbb3ac-5662-4cd9-a145-78effb6c373c.pdf",
+  "pages": 21,
+  "quarter": "Q2 FY26",
+  "business": "Dixon Technologies (India) Limited manufactures and supplies electronic products, offering design-manufacturing solutions. Its main segments include Mobile and EMS, Consumer Electronics (LED TVs and refrigerators), Home Appliances, Lighting, Telecom and Networking products, Laptops, Tablets and IT hardware, Wearables and Hearables, and AC components through JVs.",
+  "guidance": [
+   {
+    "topic": "FY26 mobile manufacturing volume",
+    "metric": "volume",
+    "period": "FY26",
+    "said": "We feel that this year numbers are going to be similar, 40 million, 42 million.",
+    "low": 40,
+    "high": 42,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "So, we feel that this year numbers are going to be similar, 40 million, 42 million. That is what we have been talking about.",
+    "speaker": "Atul Lall",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "Next year mobile volume",
+    "metric": "volume",
+    "period": "next fiscal",
+    "said": "Next year, we feel that we should be somewhere between 55 to 60 million.",
+    "low": 55,
+    "high": 60,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "There is going to be a major push up to the numbers. So, next year, we feel that we should be somewhere between 55 to 60 million.",
+    "speaker": "Atul Lall",
+    "page": 9,
+    "quote_verified": true
+   },
+   {
+    "topic": "Longcheer JV volume next year",
+    "metric": "volume",
+    "period": "next fiscal",
+    "said": "We feel that the volumes in this JV for the next fiscal should be somewhere around 8 to 10 million.",
+    "low": 8,
+    "high": 10,
+    "unit": "other",
+    "change": "new",
+    "quote": "We feel that the volumes in this JV for the next fiscal should be somewhere around 8 to 10 million, and this is going to be a part of 60 million, 65 million that we are talking about for next fiscal.",
+    "speaker": "Dhruv Jain",
+    "page": 11,
+    "quote_verified": true
+   },
+   {
+    "topic": "IT hardware business revenue",
+    "metric": "revenue_growth",
+    "period": "next two years",
+    "said": "We feel that the IT business for us in next two years should be around Rs. 4,000 crores to Rs. 5,000 crores business.",
+    "low": 4000,
+    "high": 5000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "We feel that the IT business for us in next two years should be around Rs. 4,000 crores to Rs. 5,000 crores business.",
+    "speaker": "Atul Lall",
+    "page": 14,
+    "quote_verified": true
+   },
+   {
+    "topic": "Long-term sales target",
+    "metric": "revenue_growth",
+    "period": "next three to four years",
+    "said": "We feel confident about targeting around 1 lakh crore of sales in next three to four years.",
+    "low": 100000,
+    "high": 100000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "I mean, what kind of growth rate that you can target? Because now the base has become so large... you had mentioned that you will be targeting around 1 lakh crore of sales in next three to four years... We feel confident about it.",
+    "speaker": "Saurabh Gupta",
+    "page": 16,
+    "quote_verified": false
+   },
+   {
+    "topic": "Camera modules revenue and volume",
+    "metric": "revenue_growth",
+    "period": "next two to three years",
+    "said": "Volume can increase to 190 to 200 million units per annum with revenue closer to INR 6,000 crores to INR 7,000 crores.",
+    "low": 6000,
+    "high": 7000,
+    "unit": "Rs Cr",
+    "change": "new",
+    "quote": "we feel confident that the volume of smartphone camera modules can increase from 40 million units and revenues by INR 2,000 crores in large financial years to 190 to 200 million units per annum with the revenue closer to INR 6,000 crores to INR 7,000 crores",
+    "speaker": "Atul Lall",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Long-term profit margin target",
+    "metric": "margin",
+    "period": "next three to four years",
+    "said": "Operating profit margin range can be somewhere around 4% to 4.5%.",
+    "low": 4,
+    "high": 4.5,
+    "unit": "%",
+    "change": "new",
+    "quote": "So, my sense is it should be very difficult to say, but, yes, the range can be somewhere around 4%, 4.5%.",
+    "speaker": "Saurabh Gupta",
+    "page": 18,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY26 consolidated adjusted revenue",
+    "value": "INR 14,858 crores, up 29% YoY",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 consolidated adjusted EBITDA",
+    "value": "INR 564 crores, up 34% YoY",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 consolidated adjusted PAT",
+    "value": "INR 323 crores, up 27% YoY",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 Mobile and EMS revenue",
+    "value": "INR 13,361 crores, up 41% YoY",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 Telecom revenue",
+    "value": "INR 1,635 crores, up 148% YoY",
+    "page": 6,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY26 IT hardware revenue",
+    "value": "INR 331 crores, up 481% YoY",
+    "page": 7,
+    "quote_verified": true
+   }
+  ]
+ }
+]

@@ -2,9 +2,9 @@
   status = {"ran_at": dt.datetime.utcnow().isoformat() + "Z", "errors": []}
 
 1 Failed download:
-['CDSL.NS']: OperationalError('database is locked')
+['TITAN.NS']: OperationalError('database is locked')
 {
- "ran_at": "2026-11-14T18:35:37.404090Z",
+ "ran_at": "2026-11-14T18:54:02.105375Z",
  "errors": [],
  "prices": {
   "INFY": [
@@ -31,7 +31,7 @@
    400,
    "2026-11-13"
   ],
-  "TITAN": [
+  "CDSL": [
    400,
    "2026-11-13"
   ],
@@ -153,7 +153,55 @@
   "Memorandum of Understanding/Agreements": 2,
   "Post Buyback Public Announcement": 1,
   "Buyback": 1,
-  "Disclosure of material is
+  "Disclosure of material iss
+/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+INFY Oct 2026 guidance: 5 verified: 5
+INFY Jul 2026 guidance: 2 verified: 2
+INFY Apr 2026 guidance: 4 verified: 4
+INFY Feb 2026 guidance: 3 verified: 3
+INFY Jan 2026 guidance: 5 verified: 4
+/home/runner/work/name/name/pipeline/build_research.py:37: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  led.update(stamp=stamp, generated=dt.datetime.utcnow().isoformat(timespec="minutes") + "Z")
+INFY ledger: {'kept': 4, 'missed': 0, 'partly': 1, 'open': 1}
+POLYCAB Oct 2026 guidance: 7 verified: 7
+POLYCAB Jul 2026 guidance: 7 verified: 7
+POLYCAB May 2026 guidance: 5 verified: 5
+POLYCAB Jan 2026 guidance: 8 verified: 8
+POLYCAB Jan 2026 guidance: 8 verified: 8
+POLYCAB ledger: {'kept': 2, 'missed': 0, 'partly': 0, 'open': 4}
+DIXON Nov 2026 guidance: 7 verified: 7
+DIXON Aug 2026 guidance: 3 verified: 3
+DIXON May 2026 guidance: 5 verified: 5
+DIXON Feb 2026 guidance: 5 verified: 3
+DIXON Oct 2025 guidance: 7 verified: 6
+DIXON LEDGER FAILED LLMError('gemini-3.6-flash: HTTP 429 {\n  "error": {\n    "code": 429,\n    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,')
+KPITTECH Nov 2026 guidance: 1 verified: 1
+KPITTECH Aug 2026 guidance: 4 verified: 4
+KPITTECH May 2026 guidance: 3 verified: 3
+KPITTECH Feb 2026 guidance: 2 verified: 2
+KPITTECH Nov 2025 guidance: 2 verified: 2
+KPITTECH LEDGER FAILED LLMError('gemini-4-hydrogen: HTTP 503 {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later')
+ASIANPAINT Nov 2026 guidance: 4 verified: 4
+ASIANPAINT Aug 2026 guidance: 3 verified: 3
+ASIANPAINT Jun 2026 guidance: 4 verified: 3
+ASIANPAINT Feb 2026 guidance: 2 verified: 2
+ASIANPAINT Nov 2025 guidance: 4 verified: 4
+ASIANPAINT LEDGER FAILED LLMError('gemini-3.5-flash: HTTP 429 {\n  "error": {\n    "code": 429,\n    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,')
+TATAPOWER Jul 2026 guidance: 3 verified: 3
+TATAPOWER May 2026 guidance: 3 verified: 3
+TATAPOWER Feb 2026 guidance: 5 verified: 5
+TATAPOWER Dec 2025 guidance: 5 verified: 4
+TATAPOWER Aug 2025 guidance: 5 verified: 5
+TATAPOWER LEDGER FAILED LLMError("gemini-4-hydrogen: bad JSON JSONDecodeError('Expecting value: line 1 column 1 (char 0)')")
+DMART Aug 2026 guidance: 4 verified: 4
+DMART Aug 2025 guidance: 3 verified: 3
+DMART Aug 2024 guidance: 1 verified: 1
+DMART Jul 2024 guidance: 3 verified: 3
+DMART Aug 2023 guidance: 1 verified: 1
+DMART LEDGER FAILED LLMError('gemini-4-hydrogen: HTTP 503 {\n  "error": {\n    "code": 503,\n    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later')
+/home/runner/work/name/name/pipeline/build_research.py:45: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  hist.append({"at": dt.datetime.utcnow().isoformat(timespec="minutes") + "Z", "stage": "research", "usage": llm.usage_summary()})
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
   warnings.warn(
 classified 2967 filings
@@ -167,111 +215,111 @@ triage: 191 enriched, 0 failed, 0 over cap
  },
  "impact": {
   "baseline": {
-   "median_abs": 0.71,
-   "n": 6243
+   "median_abs": 0.72,
+   "n": 6231
   },
   "categories": {
    "unclassified": {
-    "n": 774,
-    "median_abs": 0.79,
-    "share_gt2": 0.18,
-    "lift": 1.11
-   },
-   "investor_meetings": {
-    "n": 369,
+    "n": 756,
     "median_abs": 0.82,
     "share_gt2": 0.19,
-    "lift": 1.16
+    "lift": 1.13
+   },
+   "investor_meetings": {
+    "n": 360,
+    "median_abs": 0.85,
+    "share_gt2": 0.21,
+    "lift": 1.17
    },
    "press_release": {
     "n": 342,
     "median_abs": 0.92,
     "share_gt2": 0.21,
-    "lift": 1.3
+    "lift": 1.27
    },
    "earnings_call": {
-    "n": 130,
+    "n": 134,
     "median_abs": 1.29,
-    "share_gt2": 0.29,
-    "lift": 1.82
+    "share_gt2": 0.3,
+    "lift": 1.79
    },
    "fund_raise": {
-    "n": 39,
+    "n": 38,
     "median_abs": 1.15,
     "share_gt2": 0.26,
-    "lift": 1.63
+    "lift": 1.58
    },
    "results": {
-    "n": 149,
-    "median_abs": 1.64,
-    "share_gt2": 0.42,
-    "lift": 2.32
+    "n": 148,
+    "median_abs": 1.67,
+    "share_gt2": 0.43,
+    "lift": 2.3
    },
    "postal_ballot": {
-    "n": 52,
-    "median_abs": 0.91,
-    "share_gt2": 0.12,
-    "lift": 1.28
+    "n": 44,
+    "median_abs": 1.01,
+    "share_gt2": 0.14,
+    "lift": 1.39
    },
    "management_change": {
-    "n": 78,
-    "median_abs": 1.03,
-    "share_gt2": 0.26,
-    "lift": 1.46
+    "n": 83,
+    "median_abs": 1.0,
+    "share_gt2": 0.25,
+    "lift": 1.38
    },
    "litigation": {
-    "n": 199,
+    "n": 206,
     "median_abs": 0.82,
     "share_gt2": 0.16,
-    "lift": 1.16
+    "lift": 1.13
    },
    "credit_rating": {
-    "n": 57,
-    "median_abs": 0.91,
-    "share_gt2": 0.14,
-    "lift": 1.29
+    "n": 52,
+    "median_abs": 0.83,
+    "share_gt2": 0.15,
+    "lift": 1.15
    },
    "agm_egm": {
-    "n": 63,
+    "n": 61,
     "median_abs": 0.87,
-    "share_gt2": 0.17,
-    "lift": 1.23
+    "share_gt2": 0.18,
+    "lift": 1.2
    },
    "M&A": {
-    "n": 88,
-    "median_abs": 0.78,
+    "n": 87,
+    "median_abs": 0.76,
     "share_gt2": 0.16,
-    "lift": 1.1
+    "lift": 1.05
    },
    "dividend": {
-    "n": 36,
-    "median_abs": 1.39,
-    "share_gt2": 0.39,
-    "lift": 1.96
+    "n": 35,
+    "median_abs": 1.36,
+    "share_gt2": 0.4,
+    "lift": 1.88
    },
    "insider_trading": {
     "n": 5,
     "median_abs": 0.88,
     "share_gt2": 0.0,
-    "lift": 1.24
+    "lift": 1.21
    },
    "capex": {
     "n": 8,
     "median_abs": 0.53,
     "share_gt2": 0.0,
-    "lift": 0.76
+    "lift": 0.74
    },
    "pledging": {
-    "n": 18,
-    "median_abs": 0.84,
-    "share_gt2": 0.17,
-    "lift": 1.19
+    "n": 17,
+    "median_abs": 0.85,
+    "share_gt2": 0.18,
+    "lift": 1.17
    },
    "bonus_split": {
     "n": 3,
     "median_abs": 0.24,
     "share_gt2": 0.33,
-    "lift": 0.34
+    "lift": 0.33
    }
   }
  }
