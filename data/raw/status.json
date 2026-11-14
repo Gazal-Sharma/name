@@ -1,0 +1,278 @@
+{
+ "ran_at": "2026-11-14T18:29:12.997192Z",
+ "errors": [],
+ "prices": {
+  "INFY": [
+   400,
+   "2026-11-13"
+  ],
+  "HCLTECH": [
+   400,
+   "2026-11-13"
+  ],
+  "PERSISTENT": [
+   400,
+   "2026-11-13"
+  ],
+  "HDFCBANK": [
+   400,
+   "2026-11-13"
+  ],
+  "ICICIBANK": [
+   400,
+   "2026-11-13"
+  ],
+  "BAJFINANCE": [
+   400,
+   "2026-11-13"
+  ],
+  "CDSL": [
+   400,
+   "2026-11-13"
+  ],
+  "TITAN": [
+   400,
+   "2026-11-13"
+  ],
+  "TRENT": [
+   400,
+   "2026-11-13"
+  ],
+  "ETERNAL": [
+   400,
+   "2026-11-13"
+  ],
+  "LT": [
+   400,
+   "2026-11-13"
+  ],
+  "POLYCAB": [
+   400,
+   "2026-11-13"
+  ],
+  "DIXON": [
+   400,
+   "2026-11-13"
+  ],
+  "RELIANCE": [
+   400,
+   "2026-11-13"
+  ],
+  "BHARTIARTL": [
+   400,
+   "2026-11-13"
+  ],
+  "SUNPHARMA": [
+   400,
+   "2026-11-13"
+  ],
+  "MARUTI": [
+   400,
+   "2026-11-13"
+  ],
+  "INDIGO": [
+   400,
+   "2026-11-13"
+  ],
+  "NIFTY": [
+   399,
+   "2026-11-13"
+  ]
+ },
+ "filings": {
+  "INFY": 215,
+  "HCLTECH": 217,
+  "PERSISTENT": 275,
+  "HDFCBANK": 157,
+  "ICICIBANK": 240,
+  "BAJFINANCE": 106,
+  "CDSL": 110,
+  "TITAN": 136,
+  "TRENT": 112,
+  "ETERNAL": 70,
+  "LT": 181,
+  "POLYCAB": 152,
+  "DIXON": 163,
+  "RELIANCE": 167,
+  "BHARTIARTL": 232,
+  "SUNPHARMA": 132,
+  "MARUTI": 149,
+  "INDIGO": 153
+ },
+ "desc_counts": {
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 546,
+  "General Updates": 460,
+  "Updates": 417,
+  "Copy of Newspaper Publication": 195,
+  "Press Release": 183,
+  "ESOP/ESOS/ESPS": 140,
+  "Shareholders meeting": 114,
+  "Outcome of Board Meeting": 106,
+  "Action(s) taken or orders passed": 98,
+  "Trading Window": 64,
+  "Certificate under SEBI (Depositories and Participants) Regulations, 2018": 61,
+  "Investor Presentation": 48,
+  "Disclosure under SEBI Takeover Regulations": 45,
+  "News Verification": 44,
+  "Bagging/Receiving of orders/contracts": 43,
+  "Credit Rating": 40,
+  "Allotment of Securities": 37,
+  "Change in Management": 32,
+  "Appointment": 31,
+  "Record Date": 27,
+  "Acquisition": 24,
+  "Change in Director(s)": 21,
+  "Dividend": 20,
+  "Other Restructuring": 16,
+  "Issue of Securities": 11,
+  "Resignation of Director/KMP/SMP": 9,
+  "Resignation": 9,
+  "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company": 8,
+  "Credit Rating- Others": 8,
+  "Cessation": 7,
+  "Committee Meeting Updates": 7,
+  "Sale or disposal": 7,
+  "Monitoring Agency Report": 7,
+  "Scheme of Arrangement": 7,
+  "Corporate Insolvency Resolution Process": 7,
+  "Credit Rating- New": 6,
+  "Amalgamation/Merger": 6,
+  "Retirement": 6,
+  "Change in Auditors": 6,
+  "Credit Rating- Revision": 5,
+  "Amendment to AOA/MOA": 4,
+  "Options to purchase securities": 4,
+  "Statement of deviation(s) or variation(s) under Reg. 32": 3,
+  "Commencement of commercial production/operations": 3,
+  "Capacity addition": 3,
+  "Corrigendum": 2,
+  "Suspension of Trading": 2,
+  "Rumour Verification - Regulation 30(11)": 2,
+  "Agreements": 2,
+  "Memorandum of Understanding/Agreements": 2,
+  "Post Buyback Public Announcement": 1,
+  "Buyback": 1,
+  "Disclosure of material issue": 1,
+  "Resignation of Independent director": 1,
+  "Qualified Institutional Placement": 1,
+  "Preferential issue": 1,
+  "Address Change": 1,
+  "Bonus": 1,
+  "Trading Plan under PIT": 1,
+  "Demise": 1,
+  "Giving guarantees/indemnity/ becoming a surety for third party": 1,
+  "Action(s) initiated or orders passed": 1
+ },
+ "screener": {
+  "INFY": [
+   "Infosys Ltd",
+   "Sep 2026",
+   41
+  ],
+  "HCLTECH": [
+   "HCL Technologies Ltd",
+   "Sep 2026",
+   50
+  ],
+  "PERSISTENT": [
+   "Persistent Systems Ltd",
+   "Sep 2026",
+   45
+  ],
+  "HDFCBANK": [
+   "HDFC Bank Ltd",
+   "Sep 2026",
+   28
+  ],
+  "ICICIBANK": [
+   "ICICI Bank Ltd",
+   "Sep 2026",
+   50
+  ],
+  "BAJFINANCE": [
+   "Bajaj Finance Ltd",
+   "Sep 2026",
+   53
+  ],
+  "CDSL": [
+   "Central Depository Services (India) Ltd",
+   "Sep 2026",
+   39
+  ],
+  "TITAN": [
+   "Titan Company Ltd",
+   "Sep 2026",
+   52
+  ],
+  "TRENT": [
+   "Trent Ltd",
+   "Sep 2026",
+   14
+  ],
+  "ETERNAL": [
+   "Eternal Ltd",
+   "Sep 2026",
+   24
+  ],
+  "LT": [
+   "Larsen & Toubro Ltd",
+   "Sep 2026",
+   67
+  ],
+  "POLYCAB": [
+   "Polycab India Ltd",
+   "Sep 2026",
+   47
+  ],
+  "DIXON": [
+   "Dixon Technologies (India) Ltd",
+   "Sep 2026",
+   39
+  ],
+  "RELIANCE": [
+   "Reliance Industries Ltd",
+   "Sep 2026",
+   48
+  ],
+  "BHARTIARTL": [
+   "Bharti Airtel Ltd",
+   "Sep 2026",
+   43
+  ],
+  "SUNPHARMA": [
+   "Sun Pharmaceutical Industries Ltd",
+   "Sep 2026",
+   39
+  ],
+  "MARUTI": [
+   "Maruti Suzuki India Ltd",
+   "Sep 2026",
+   42
+  ],
+  "INDIGO": [
+   "Interglobe Aviation Ltd",
+   "Sep 2026",
+   51
+  ],
+  "KPITTECH": [
+   "KPIT Technologies Ltd",
+   "Sep 2026",
+   29
+  ],
+  "ASIANPAINT": [
+   "Asian Paints Ltd",
+   "Sep 2026",
+   43
+  ],
+  "TATAPOWER": [
+   "Tata Power Company Ltd",
+   "Sep 2026",
+   54
+  ],
+  "DMART": [
+   "Avenue Supermarts Ltd",
+   "Sep 2026",
+   25
+  ]
+ }
+}

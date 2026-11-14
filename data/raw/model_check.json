@@ -1,0 +1,193 @@
+{
+ "gemini-3.8-flash": {
+  "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)\"))"
+ },
+ "gemini-3.7-flash": {
+  "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)\"))"
+ },
+ "gemini-3.6-flash": {
+  "status": 200,
+  "secs": 1.3,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 108,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "thoughtsTokenCount": 96,
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-3.5-flash": {
+  "status": 200,
+  "secs": 1.3,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 145,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "thoughtsTokenCount": 133,
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-3.5-flash-lite": {
+  "status": 200,
+  "secs": 0.8,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 16,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-3.1-flash-lite": {
+  "status": 200,
+  "secs": 0.7,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 12,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-flash-latest": {
+  "error": "ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)\"))"
+ },
+ "gemini-flash-lite-latest": {
+  "status": 200,
+  "secs": 0.7,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 16,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-2.5-flash": {
+  "status": 404,
+  "secs": 0.1,
+  "usage": null,
+  "err": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and impro"
+ },
+ "gemini-2.5-flash-lite": {
+  "status": 200,
+  "secs": 0.6,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 12,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-2.5-pro": {
+  "status": 404,
+  "secs": 0.1,
+  "usage": null,
+  "err": "This model models/gemini-2.5-pro is no longer available to new users. Please update your code to use models/gemini-3.1-pro-preview for the latest features and i"
+ },
+ "gemini-pro-latest": {
+  "status": 429,
+  "secs": 0.1,
+  "usage": null,
+  "err": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+ },
+ "gemini-3.1-pro-preview": {
+  "status": 429,
+  "secs": 0.1,
+  "usage": null,
+  "err": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+ },
+ "gemini-4-hydrogen": {
+  "status": 200,
+  "secs": 2.8,
+  "usage": {
+   "promptTokenCount": 105,
+   "candidatesTokenCount": 9,
+   "totalTokenCount": 267,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 105
+    }
+   ],
+   "candidatesTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 9
+    }
+   ],
+   "thoughtsTokenCount": 153,
+   "serviceTier": "standard"
+  },
+  "err": ""
+ },
+ "gemini-4-carbon": {
+  "status": 429,
+  "secs": 0.1,
+  "usage": null,
+  "err": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+ },
+ "gemini-4-argon": {
+  "status": 429,
+  "secs": 0.1,
+  "usage": null,
+  "err": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-"
+ },
+ "gemma-4-31b-it": {
+  "status": 200,
+  "secs": 26.6,
+  "usage": {
+   "promptTokenCount": 7,
+   "candidatesTokenCount": 5,
+   "totalTokenCount": 179,
+   "promptTokensDetails": [
+    {
+     "modality": "TEXT",
+     "tokenCount": 7
+    }
+   ],
+   "thoughtsTokenCount": 167,
+   "serviceTier": "standard"
+  },
+  "err": ""
+ }
+}
