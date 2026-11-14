@@ -1,7 +1,7 @@
 // Research: any NSE ticker. Numbers come from the standardised tables with no model involved;
 // the Promise Ledger comes from the company's own earnings-call transcripts, with every quote checked against the page it cites.
 import { db } from "./store.js";
-import { esc, cr, num, signed, pctSpan, spark, day } from "./ui.js";
+import { esc, cr, num, signed, pctSpan, spark, day, term } from "./ui.js";
 
 const state = { sym: null, co: null, ledger: null, steps: [], error: null, busy: false };
 const cache = {};
@@ -127,7 +127,7 @@ function ledger(L) {
 
 export function render() {
   const demo = db.meta.demo || [];
-  const head = `<header class="top"><span class="mark">FINN</span><span class="asof">Primary sources only</span></header>
+  const head = `<header class="top"><span class="mark">FINN</span><span class="asof">Primary sources only<button class="help" data-guide>New here?</button></span></header>
     <form class="search" data-form="research"><input name="sym" placeholder="Any NSE symbol, e.g. KPITTECH" value="${esc(state.sym || "")}" autocomplete="off" autocapitalize="characters" aria-label="NSE symbol"><button class="btn">Research</button></form>
     <div class="cats">${demo.map((s) => `<a class="chip" href="#/research/${s}">${s}</a>`).join("")}</div>`;
   if (!state.sym) return `${head}<h1 class="lede">What did management promise, and did they deliver?</h1>
@@ -135,8 +135,8 @@ export function render() {
   if (!state.co) return `${head}<p class="empty">${state.error ? esc(state.error) : `Loading ${esc(state.sym)}`}</p>`;
   const co = state.co, f = figures(co), t = co.top || {};
   return `${head}<article class="co"><h1>${esc(co.name)}</h1>
-    <div class="kv"><div><small>Market cap</small><b>${cr(t["Market Cap"])}</b></div><div><small>P/E</small><b>${t["Stock P/E"] ?? "n/a"}</b></div>
-    <div><small>ROCE</small><b>${t.ROCE ?? "n/a"}%</b></div><div><small>ROE</small><b>${t.ROE ?? "n/a"}%</b></div></div>
+    <div class="kv"><div><small>${term("mcap", "Market cap")}</small><b>${cr(t["Market Cap"])}</b></div><div><small>${term("pe", "P/E")}</small><b>${t["Stock P/E"] ?? "n/a"}</b></div>
+    <div><small>${term("roce", "ROCE")}</small><b>${t.ROCE ?? "n/a"}%</b></div><div><small>${term("roe", "ROE")}</small><b>${t.ROE ?? "n/a"}%</b></div></div>
     ${state.error ? `<p class="empty">${esc(state.error)}</p>` : ""}
     ${state.busy && state.steps.length ? `<ul class="steps">${state.steps.map((s) => `<li class="${s.done ? "done" : ""}">${s.done ? "Done: " : ""}${esc(s.label)}</li>`).join("")}</ul>` : state.busy ? `<p class="empty">Loading the Promise Ledger</p>` : ""}
     ${ledger(state.ledger)}${trajectory(f)}${balance(f)}${cash(f)}

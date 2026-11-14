@@ -22,12 +22,12 @@ export function render() {
   const list = alerts();
   const cats = Object.entries(db.meta.labels).filter(([c]) => c !== "unclassified");
   return `
-  <header class="top"><span class="mark">FINN</span><span class="asof">Prices to ${day(db.meta.price_date)}</span></header>
+  <header class="top"><span class="mark">FINN</span><span class="asof">Prices to ${day(db.meta.price_date)}<button class="help" data-guide>New here?</button></span></header>
   <h1 class="lede">Tell FINN what counts as unusual.</h1>
   <div class="ctl">
     <label for="mv">Price move in a day <output id="mvo">±${settings.movePct}%</output></label>
     <input id="mv" type="range" min="1.5" max="10" step="0.5" value="${settings.movePct}" data-set="movePct">
-    <label for="vx">Volume against its 20-day average <output id="vxo">${settings.volX}×</output></label>
+    <label for="vx">Trading volume against its 20-day average <output id="vxo">${settings.volX}×</output></label>
     <input id="vx" type="range" min="1.5" max="6" step="0.25" value="${settings.volX}" data-set="volX">
     <div id="fore">${forecast()}</div>
   </div>

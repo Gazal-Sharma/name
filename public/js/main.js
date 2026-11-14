@@ -4,6 +4,8 @@ import { closeSheet, openSheet } from "./ui.js";
 import * as today from "./today.js";
 import * as watch from "./watch.js";
 import * as research from "./research.js";
+import { TERMS, CATS, GUIDE } from "./glossary.js";
+import { esc } from "./ui.js";
 
 const app = document.getElementById("app");
 const screens = { today, watch, research };
@@ -27,6 +29,14 @@ function paint() {
 document.addEventListener("click", (e) => {
   if (e.target.closest("[data-stop]")) return;
   if (e.target.closest("[data-close]") || e.target.id === "sheet") return closeSheet();
+  const g = e.target.closest("[data-term], [data-cat].term, [data-guide]");
+  if (g) {
+    e.stopPropagation();
+    if (g.dataset.guide !== undefined) return openSheet(GUIDE);
+    if (g.dataset.term && TERMS[g.dataset.term]) return openSheet(`<h3>${esc(TERMS[g.dataset.term][0])}</h3><p>${esc(TERMS[g.dataset.term][1])}</p>`);
+    if (g.dataset.cat && CATS[g.dataset.cat]) return openSheet(`<h3>${esc(db.meta.labels[g.dataset.cat] || g.dataset.cat)}</h3><p>${esc(CATS[g.dataset.cat])}</p>`);
+    return;
+  }
   const el = e.target.closest("[data-act]");
   if (!el) return;
   const act = el.dataset.act;
@@ -36,7 +46,11 @@ document.addEventListener("click", (e) => {
 document.addEventListener("input", (e) => { if (tab === "watch") watch.onInput(e.target); });
 document.addEventListener("change", (e) => {
   const k = e.target.dataset?.date;
-  if (k) import("./ui.js").then(({ settings, save }) => { settings[k] = e.target.value; save(); paint(); });
+  if (k) import("./ui.js").then(({ settings, save }) => {
+    const lo = e.target.min, hi = e.target.max;       // never accept a date outside the data FINN holds
+    let v = e.target.value; if (lo && v < lo) v = lo; if (hi && v > hi) v = hi;
+    settings[k] = v; save(); paint();
+  });
 });
 document.addEventListener("submit", (e) => {
   if (e.target.dataset.form !== "research") return;

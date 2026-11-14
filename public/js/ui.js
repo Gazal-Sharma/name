@@ -51,3 +51,6 @@ export function openSheet(html) {
   el.hidden = false;
 }
 export function closeSheet() { document.getElementById("sheet").hidden = true; }
+
+// A tappable term: opens a plain-English explanation.
+export const term = (key, text) => `<button class="term" data-term="${key}">${esc(text)}</button>`;

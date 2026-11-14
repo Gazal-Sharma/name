@@ -1,6 +1,6 @@
 // Today: the digest. One sentence, then what matters, then what's worth a glance, then the buried pile with its reasons.
 import { db, tierOf, windowRange, inRange, alerts } from "./store.js";
-import { esc, cr, num, signed, pctSpan, day, dayTime, settings, save, bars } from "./ui.js";
+import { esc, cr, num, signed, pctSpan, day, dayTime, settings, save, bars, term } from "./ui.js";
 
 const state = { open: new Set(), buried: false, cat: null, speaking: false };
 const WINS = [["24h", "24 hours"], ["3d", "3 days"], ["7d", "7 days"], ["30d", "30 days"], ["custom", "Pick dates"]];
@@ -11,17 +11,17 @@ function reaction(f) {
   if (f.r == null) return "";
   const when = f.day === f.t.slice(0, 10) ? "that session" : `next session (${day(f.day)})`;
   const vol = f.vm >= 1.5 ? `, volume ${f.vm.toFixed(1)}× normal` : "";
-  return `<p class="react">Stock ${pctSpan(f.r)} ${when}, ${pctSpan(f.ar)} against the Nifty${vol}.</p>`;
+  return `<p class="react">Stock ${pctSpan(f.r)} ${when}, ${pctSpan(f.ar)} ${term("nifty", "against the Nifty")}${vol}.</p>`;
 }
 
 function resultsBody(f) {
   const R = f.results;
   if (!R.rows.length) return `<p class="why">Results filed. Standardised numbers for ${esc(R.period || "this quarter")} are not available yet; open the filing.</p>`;
-  const rows = R.rows.map((r) => `<div>${r.k}</div><div class="v">${num(r.v)}</div><div class="d">${pctSpan(r.qoq)}</div><div class="d">${pctSpan(r.yoy)}</div>`).join("");
+  const rows = R.rows.map((r) => `<div>${term(r.k.toLowerCase(), r.k)}</div><div class="v">${num(r.v)}</div><div class="d">${pctSpan(r.qoq)}</div><div class="d">${pctSpan(r.yoy)}</div>`).join("");
   const m = R.margin;
-  const margin = m ? `<p class="note">EBITDA margin ${m.v}%${m.ya != null ? `, ${m.v === m.ya ? "unchanged from" : m.v > m.ya ? "up from" : "down from"} ${m.ya}% a year ago` : ""}.</p>` : "";
+  const margin = m ? `<p class="note">EBITDA ${term("margin", "margin")} ${m.v}%${m.ya != null ? `, ${m.v === m.ya ? "unchanged from" : m.v > m.ya ? "up from" : "down from"} ${m.ya}% a year ago` : ""}.</p>` : "";
   const lender = R.lender ? `<p class="note">EBITDA is not meaningful for a lender, so it is left out.</p>` : "";
-  return `<div class="nums"><div class="h">₹ crore, ${esc(R.basis || "")}</div><div class="h">${esc(R.period)}</div><div class="h">QoQ</div><div class="h">YoY</div>${rows}</div>
+  return `<div class="nums"><div class="h">${term("crore", "₹ crore")}, ${term("consolidated", R.basis || "")}</div><div class="h">${esc(R.period)}</div><div class="h">${term("qoq", "QoQ")}</div><div class="h">${term("yoy", "YoY")}</div>${rows}</div>
     ${margin}${lender}${bars(R.trend.rev)}<p class="note">Revenue, last ${R.trend.rev.length} quarters.</p>`;
 }
 
@@ -35,7 +35,7 @@ function sheet(f) {
   const rel = f.related?.length || 0;
   const title = f.results ? `${name(f.sym)}: ${f.title}` : f.title;
   return `<article class="sheet">
-    <div class="who"><span><b>${esc(f.sym)}</b> ${esc(label(f.cat))}</span><span>${dayTime(f.t)}</span></div>
+    <div class="who"><span><b>${esc(f.sym)}</b> <button class="term" data-cat="${esc(f.cat)}">${esc(label(f.cat))}</button></span><span>${dayTime(f.t)}</span></div>
     <h3><span>${esc(title)}</span></h3>
     ${f.results ? resultsBody(f) : f.why ? `<p class="why">${esc(f.why)}</p>` : ""}
     ${f.people ? peopleBody(f) : ""}
@@ -110,18 +110,25 @@ function nextBusyWindow() {
   return null;
 }
 
-export function render() {
+// One place computes the window's contents, so the screen and the spoken brief can never disagree.
+function digest() {
   const range = windowRange();
   const all = inRange(range).sort((a, b) => (a.t < b.t ? 1 : -1));
   const total = all.reduce((s, f) => s + 1 + (f.related?.length || 0), 0);
   const t1 = all.filter((f) => tierOf(f) === 1).sort((a, b) => Math.abs(b.ar ?? 0) - Math.abs(a.ar ?? 0));
-  const t2 = all.filter((f) => tierOf(f) === 2);
-  const t3 = all.filter((f) => tierOf(f) === 3);
+  return { range, all, total, t1, t2: all.filter((f) => tierOf(f) === 2), t3: all.filter((f) => tierOf(f) === 3) };
+}
+
+export function render() {
+  const { range, all, total, t1, t2, t3 } = digest();
+  const first = db.filings.length ? db.filings.reduce((m, f) => (f.t < m ? f.t : m), db.filings[0].t).slice(0, 10) : "";
+  const lastDay = db.meta.generated.slice(0, 10);
   const next = !all.length ? nextBusyWindow() : null;
   const custom = settings.win === "custom"
-    ? `<div class="custom"><input type="date" data-date="from" value="${settings.from || ""}" aria-label="From"> to <input type="date" data-date="to" value="${settings.to || ""}" aria-label="To"></div>` : "";
+    ? `<div class="custom"><input type="date" data-date="from" min="${first}" max="${lastDay}" value="${settings.from || ""}" aria-label="From"> to <input type="date" data-date="to" min="${first}" max="${lastDay}" value="${settings.to || ""}" aria-label="To"></div>
+       <p class="hint">FINN holds filings from ${day(first)} to ${day(lastDay)}.</p>` : "";
   return `
-  <header class="top"><span class="mark">FINN</span><span class="asof">Data as of ${dayTime(db.meta.generated)}</span></header>
+  <header class="top"><span class="mark">FINN</span><span class="asof">Data as of ${dayTime(db.meta.generated)}<button class="help" data-guide>New here?</button></span></header>
   <div class="win" role="group" aria-label="Time window">${WINS.map(([w, l]) => `<button class="chip" data-act="win" data-win="${w}" aria-pressed="${settings.win === w}">${l}</button>`).join("")}</div>
   ${custom}
   ${lede(all, t1, range, total)}
@@ -134,17 +141,30 @@ export function render() {
   ${buried(t3)}`;
 }
 
+// The spoken brief: same counts as the screen, at most three items, never the same company twice.
 function briefText() {
-  const all = inRange(windowRange()), t1 = all.filter((f) => tierOf(f) === 1), t2 = all.filter((f) => tierOf(f) === 2);
-  const parts = [`${all.length} filings in this window. ${t1.length} matter.`];
-  for (const f of t1.slice(0, 6)) {
+  const { total, t1, t2, t3 } = digest();
+  const parts = [`${total} filing${total === 1 ? "" : "s"} in this window. ${t1.length === 0 ? "None" : t1.length} matter${t1.length === 1 ? "s" : ""}.`];
+  const seen = new Set(), picks = [];
+  for (const f of t1) { if (!seen.has(f.sym) && picks.length < 3) { seen.add(f.sym); picks.push(f); } }
+  for (const f of picks) {
     if (f.results?.rows.length) {
       const rev = f.results.rows[0], pat = f.results.rows.at(-1);
-      parts.push(`${name(f.sym)}, ${f.results.period} results. Revenue ${num(rev.v)} crore, ${rev.yoy >= 0 ? "up" : "down"} ${Math.abs(rev.yoy)} percent on the year. Profit after tax ${num(pat.v)} crore, ${pat.yoy >= 0 ? "up" : "down"} ${Math.abs(pat.yoy)} percent.${f.ar != null ? ` The stock moved ${f.ar > 0 ? "up" : "down"} ${Math.abs(f.ar)} percent against the Nifty.` : ""}`);
-    } else parts.push(`${name(f.sym)}. ${f.title}. ${f.why || ""}`);
+      const dir = (v) => (v == null ? "" : `, ${v >= 0 ? "up" : "down"} ${Math.abs(v)} percent on the year`);
+      parts.push(`${name(f.sym)}, ${f.results.period} results. Revenue ${num(rev.v)} crore${dir(rev.yoy)}. Profit after tax ${num(pat.v)} crore${dir(pat.yoy)}.`);
+    } else parts.push(`${name(f.sym)}. ${f.title}.`);
   }
-  if (t2.length) parts.push(`${t2.length} more are worth a glance, and ${all.length - t1.length - t2.length} are buried.`);
+  if (t1.length > picks.length) parts.push(`${t1.length - picks.length} more matter; they are on screen.`);
+  parts.push(`${t2.length} are worth a glance, and ${t3.length} are buried.`);
   return parts.join(" ");
+}
+
+// Phones ship several voices; the default is often the roughest. Prefer a natural-sounding English one.
+function pickVoice() {
+  const vs = speechSynthesis.getVoices().filter((v) => /^en[-_]/i.test(v.lang));
+  const score = (v) => (/natural|neural|premium|enhanced|siri/i.test(v.name) ? 8 : 0) + (/google|samantha|karen|daniel|rishi|veena|isha/i.test(v.name) ? 4 : 0)
+    + (/en[-_]IN/i.test(v.lang) ? 3 : /en[-_]GB/i.test(v.lang) ? 2 : 1) - (/compact|espeak|novelty|albert|bad news|bells|boing|bubbles|cellos|jester|organ|trinoids|whisper|zarvox|fred|ralph/i.test(v.name) ? 20 : 0);
+  return vs.sort((a, b) => score(b) - score(a))[0] || null;
 }
 
 export function handle(act, el, rerender) {
@@ -154,7 +174,7 @@ export function handle(act, el, rerender) {
   else if (act === "cat") state.cat = state.cat === el.dataset.cat ? null : el.dataset.cat;
   else if (act === "speak") {
     if (state.speaking) { speechSynthesis.cancel(); state.speaking = false; }
-    else { const u = new SpeechSynthesisUtterance(briefText()); u.lang = "en-IN"; u.rate = 1.05; u.onend = () => { state.speaking = false; rerender(); }; speechSynthesis.speak(u); state.speaking = true; }
+    else { const u = new SpeechSynthesisUtterance(briefText()); const v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-IN"; u.rate = 0.95; u.pitch = 1; u.onend = () => { state.speaking = false; rerender(); }; speechSynthesis.speak(u); state.speaking = true; }
   } else return false;
   rerender();
   return true;
