@@ -10,8 +10,8 @@ import requests
 
 ROUTES = {
     "triage": ["gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-2.5-flash-lite"],
-    "extract": ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite"],
-    "reason": ["gemini-4-hydrogen", "gemini-3.6-flash", "gemini-3.5-flash"],
+    "extract": ["gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"],
+    "reason": ["gemini-4-hydrogen", "gemini-3.6-flash", "gemini-3.5-flash", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite"],
 }
 _URL = "https://generativelanguage.googleapis.com/v1beta/models/{m}:generateContent"
 CACHE_DIR = pathlib.Path(os.environ.get("FINN_LLM_CACHE", "data/cache/llm"))
@@ -97,7 +97,7 @@ def ask(task: str, prompt: str, *, cache: bool = True, max_out: int = 4096, temp
                 _dead[model] = time.time()
                 break
             if r.status_code in (500, 503):
-                time.sleep(3)
+                time.sleep(12)     # "high demand" spikes usually clear within seconds
                 continue
             break   # 4xx other than 429: try the next model
     raise LLMError(last or "all models unavailable")
