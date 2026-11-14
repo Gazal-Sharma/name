@@ -20,7 +20,7 @@ jobs:
       - name: Run pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: bash pipeline/run.sh 2>&1 | tee data/last_run.log
+        run: mkdir -p data && bash pipeline/run.sh 2>&1 | tee data/last_run.log
       - name: Commit data
         if: always()
         run: |
