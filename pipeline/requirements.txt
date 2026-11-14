@@ -1,0 +1,5 @@
+requests
+yfinance
+beautifulsoup4
+lxml
+pymupdf
