@@ -123,6 +123,30 @@ Materiality: 1 = could move the stock or change the investment view (large deal 
 cut = now - dt.timedelta(days=LLM_DAYS)
 todo = [i for i in items if i["ask"] and i["_when"] >= cut]
 done = fail = 0
+# Verdicts are stored per filing id, so a filing is downloaded and read exactly once, however often the job runs.
+TRIAGE_STORE = pathlib.Path("data/triage.json")
+verdicts = json.loads(TRIAGE_STORE.read_text()) if TRIAGE_STORE.exists() else {}
+
+
+def apply(it, j):
+    if j.get("category") in CATEGORY_LABEL:
+        it["cat"] = j["category"]
+    if j.get("materiality") in (1, 2, 3):
+        it["tier"] = j["materiality"]
+    it["title"] = (j.get("headline") or "").strip()[:110] or None
+    it["why"] = (j.get("why") or "").strip()[:150] or None
+    if j.get("amount_cr"):
+        it["amount_cr"] = j["amount_cr"]
+    ppl = [p for p in (j.get("people") or []) if p.get("name")]
+    if ppl:
+        it["people"] = ppl[:4]
+    it["src"] = "model"
+
+
+for it in todo:
+    if it["id"] in verdicts:
+        apply(it, verdicts[it["id"]])
+todo = [i for i in todo if i["id"] not in verdicts]
 if llm.available():
     for it in todo[:LLM_CAP]:
         f = funda.get(it["sym"], {})
@@ -140,18 +164,8 @@ if llm.available():
             j = llm.ask("triage", prompt, max_out=700, min_gap=4.0)
             if isinstance(j, list):
                 j = j[0]
-            if j.get("category") in CATEGORY_LABEL:
-                it["cat"] = j["category"]
-            if j.get("materiality") in (1, 2, 3):
-                it["tier"] = j["materiality"]
-            it["title"] = (j.get("headline") or "").strip()[:110] or None
-            it["why"] = (j.get("why") or "").strip()[:150] or None
-            if j.get("amount_cr"):
-                it["amount_cr"] = j["amount_cr"]
-            ppl = [p for p in (j.get("people") or []) if p.get("name")]
-            if ppl:
-                it["people"] = ppl[:4]
-            it["src"] = "model"
+            apply(it, j)
+            verdicts[it["id"]] = j
             done += 1
         except Exception as e:
             fail += 1
@@ -159,6 +173,7 @@ if llm.available():
             if fail >= 8 and done == 0:
                 print("model unavailable, stopping triage:", e)
                 break
+TRIAGE_STORE.write_text(json.dumps(verdicts, ensure_ascii=False, indent=0))
 print(f"triage: {done} enriched, {fail} failed, {max(0, len(todo) - LLM_CAP)} over cap")
 
 # ---------------------------------------------------------------- 4. results numbers + clustering
