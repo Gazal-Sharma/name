@@ -4,4 +4,5 @@ set -u
 mkdir -p data
 [ -f data/raw/model_check.json ] || python pipeline/model_check.py || true
 python pipeline/fetch_raw.py || echo "fetch_raw failed"
-[ -f pipeline/build_snapshot.py ] && python pipeline/build_snapshot.py || true
+python pipeline/build_research.py || echo "build_research failed"
+python pipeline/build_snapshot.py || echo "build_snapshot failed"

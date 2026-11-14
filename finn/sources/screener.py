@@ -5,6 +5,12 @@ import requests
 from bs4 import BeautifulSoup
 from ..config import UA
 
+try:
+    import lxml  # noqa: F401  (fast parser in CI; stdlib parser on serverless)
+    _PARSER = "lxml"
+except ImportError:
+    _PARSER = "html.parser"
+
 BASE = "https://www.screener.in/company/{sym}/{view}"
 
 
@@ -50,7 +56,7 @@ def _table(soup, sec_id):
 
 
 def parse(html: str, symbol: str) -> dict:
-    soup = BeautifulSoup(html, "lxml")
+    soup = BeautifulSoup(html, _PARSER)
     h1 = soup.find("h1")
     if not h1:
         raise NotFound(symbol)

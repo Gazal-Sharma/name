@@ -7,7 +7,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 from finn import config, impact, llm, pdftext
 from finn.classify import classify, CATEGORY_LABEL
 
-RAW, OUT = pathlib.Path("data/raw"), pathlib.Path("web/data")
+RAW, OUT = pathlib.Path("data/raw"), pathlib.Path("public/data")
 (OUT / "company").mkdir(parents=True, exist_ok=True)
 LLM_DAYS, LLM_CAP = 60, int(os.environ.get("FINN_LLM_CAP", "220"))
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
