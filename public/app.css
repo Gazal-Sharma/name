@@ -175,3 +175,9 @@ a.chip { text-decoration: none; }
 .term { text-decoration: underline dotted; text-underline-offset: 3px; text-decoration-color: var(--soft); font: inherit; color: inherit; text-align: inherit; }
 .help { font-size: 12.5px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; margin-left: 10px; }
 #sheet .panel p { font-size: 15px; line-height: 1.5; }
+
+.defs { margin: 8px 0 0; }
+.defs dt { font-weight: 700; margin-top: 12px; }
+.defs dd { margin: 2px 0 0; color: var(--ink); font-size: 14.5px; line-height: 1.5; }
+.briefp { font-size: 16px; line-height: 1.5; margin: 10px 0 4px; padding-left: 12px; border-left: 3px solid var(--hi); text-wrap: pretty; }
+#tabs a { font-size: 14px; }

@@ -2,7 +2,7 @@
 import { db, tierOf, windowRange, inRange, alerts } from "./store.js";
 import { esc, cr, num, signed, pctSpan, day, dayTime, settings, save, bars, term } from "./ui.js";
 
-const state = { open: new Set(), buried: false, cat: null, speaking: false };
+const state = { open: new Set(), buried: false, cat: null, speaking: false, brief: {}, briefBusy: false };
 const WINS = [["24h", "24 hours"], ["3d", "3 days"], ["7d", "7 days"], ["30d", "30 days"], ["custom", "Pick dates"]];
 const label = (c) => db.meta.labels[c] || c;
 const name = (sym) => (db.bySym[sym]?.name || sym).replace(/ (Ltd|Limited|Company Ltd|\(India\) Ltd)\.?$/i, "");
@@ -45,6 +45,7 @@ function sheet(f) {
       ${f.results?.source ? `<a href="${esc(f.results.source)}" target="_blank" rel="noopener">Results PDF</a>` : ""}
       ${f.has_transcript || f.results ? `<a href="#/research/${esc(f.sym)}">Promised vs delivered</a>` : ""}
       ${rel ? `<button data-act="related" data-id="${f.id}">${rel} related filing${rel > 1 ? "s" : ""}</button>` : ""}
+      <button data-act="explain" data-id="${f.id}">Explain simply</button>
       <button data-act="whyhere" data-id="${f.id}">Why this is here</button>
     </div></article>`;
 }
@@ -128,12 +129,13 @@ export function render() {
     ? `<div class="custom"><input type="date" data-date="from" min="${first}" max="${lastDay}" value="${settings.from || ""}" aria-label="From"> to <input type="date" data-date="to" min="${first}" max="${lastDay}" value="${settings.to || ""}" aria-label="To"></div>
        <p class="hint">FINN holds filings from ${day(first)} to ${day(lastDay)}.</p>` : "";
   return `
-  <header class="top"><span class="mark">FINN</span><span class="asof">Data as of ${dayTime(db.meta.generated)}<button class="help" data-guide>New here?</button></span></header>
+  <header class="top"><span class="mark">FINN</span><span class="asof">Filings updated ${dayTime(db.meta.generated)}<button class="help" data-guide>New here?</button></span></header>
   <div class="win" role="group" aria-label="Time window">${WINS.map(([w, l]) => `<button class="chip" data-act="win" data-win="${w}" aria-pressed="${settings.win === w}">${l}</button>`).join("")}</div>
   ${custom}
   ${lede(all, t1, range, total)}
   <p class="sub">${all.length ? `Across ${new Set(all.map((f) => f.sym)).size} of your ${db.meta.companies.length} stocks. Prices to ${day(db.meta.price_date)}.` : ""}</p>
-  ${all.length && "speechSynthesis" in window ? `<button class="brief" data-act="speak">${state.speaking ? "Stop" : "Read me the brief"}</button>` : ""}
+  ${all.length ? `<button class="brief" data-act="brief">${state.briefBusy ? "Writing your brief" : state.brief[briefKey()] ? "Hide the brief" : "Brief me"}</button>` : ""}
+  ${state.brief[briefKey()] ? `<p class="briefp">${esc(state.brief[briefKey()])}</p>${"speechSynthesis" in window ? `<button class="brief" data-act="speak">${state.speaking ? "Stop reading" : "Read it aloud"}</button>` : ""}` : ""}
   ${next ? `<p class="empty">The last ${next.lab} had ${next.n} filings${next.k ? `, ${next.k} that matter` : ""}. <button data-act="win" data-win="${next.w}">Show the last ${next.lab}</button></p>` : ""}
   ${t1.length ? `<div class="sec"><h2>Matters</h2><span>${t1.length}</span></div>${t1.map(sheet).join("")}` : ""}
   ${moves(range)}
@@ -141,7 +143,25 @@ export function render() {
   ${buried(t3)}`;
 }
 
-// The spoken brief: same counts as the screen, at most three items, never the same company twice.
+const briefKey = () => `${settings.win}|${settings.from}|${settings.to}|${JSON.stringify(settings.cats)}`;
+
+// Facts handed to the model for the written brief. It may only rephrase these; the counts come from digest().
+function briefFacts() {
+  const { total, t1, t2, t3 } = digest();
+  return { filings: total, matter: t1.length, worth_a_glance: t2.length, buried: t3.length,
+    items: t1.slice(0, 12).map((f) => f.results?.rows.length
+      ? { company: name(f.sym), what: `${f.results.period} quarterly results`, ...Object.fromEntries(f.results.rows.map((r) => [r.k, { crore: r.v, yoy_pct: r.yoy, qoq_pct: r.qoq }])), stock_vs_market_pct: f.ar }
+      : { company: name(f.sym), what: f.title, why: f.why, stock_vs_market_pct: f.ar }) };
+}
+
+export function contextFor(id) {
+  const f = db.filings.find((x) => x.id === id);
+  if (!f) return null;
+  return { company: db.bySym[f.sym]?.name || f.sym, type: label(f.cat), headline: f.title, detail: f.why || f.text, people: f.people,
+    results: f.results?.rows.map((r) => ({ item: r.k, crore: r.v, vs_last_quarter_pct: r.qoq, vs_last_year_pct: r.yoy })), stock_move_pct: f.r, vs_market_pct: f.ar };
+}
+
+// The fallback brief if the model is unreachable: same counts as the screen, at most three items, never the same company twice.
 function briefText() {
   const { total, t1, t2, t3 } = digest();
   const parts = [`${total} filing${total === 1 ? "" : "s"} in this window. ${t1.length === 0 ? "None" : t1.length} matter${t1.length === 1 ? "s" : ""}.`];
@@ -172,9 +192,20 @@ export function handle(act, el, rerender) {
   else if (act === "toggle") { state.open.has(el.dataset.id) ? state.open.delete(el.dataset.id) : state.open.add(el.dataset.id); }
   else if (act === "buried") state.buried = !state.buried;
   else if (act === "cat") state.cat = state.cat === el.dataset.cat ? null : el.dataset.cat;
+  else if (act === "brief") {
+    const k = briefKey();
+    if (state.brief[k]) delete state.brief[k];
+    else if (!state.briefBusy) {
+      state.briefBusy = true;
+      fetch("api/ask", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ mode: "brief", facts: briefFacts() }) })
+        .then((r) => (r.ok ? r.json() : Promise.reject())).then((j) => { state.brief[k] = j.answer || briefText(); })
+        .catch(() => { state.brief[k] = briefText(); })
+        .finally(() => { state.briefBusy = false; rerender(); });
+    }
+  }
   else if (act === "speak") {
     if (state.speaking) { speechSynthesis.cancel(); state.speaking = false; }
-    else { const u = new SpeechSynthesisUtterance(briefText()); const v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-IN"; u.rate = 0.95; u.pitch = 1; u.onend = () => { state.speaking = false; rerender(); }; speechSynthesis.speak(u); state.speaking = true; }
+    else { const u = new SpeechSynthesisUtterance(state.brief[briefKey()] || briefText()); const v = pickVoice(); if (v) { u.voice = v; u.lang = v.lang; } else u.lang = "en-IN"; u.rate = 0.95; u.pitch = 1; u.onend = () => { state.speaking = false; rerender(); }; speechSynthesis.speak(u); state.speaking = true; }
   } else return false;
   rerender();
   return true;

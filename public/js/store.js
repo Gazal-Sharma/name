@@ -21,7 +21,13 @@ export function tierOf(f) {
 export function windowRange() {
   const end = db.asOf;
   if (settings.win === "custom" && settings.from) {
-    return [new Date(settings.from + "T00:00"), settings.to ? new Date(settings.to + "T23:59") : end];
+    // Dates outside what FINN holds (or typed back to front) are pulled back into range rather than trusted.
+    const lo = db.filings.reduce((m, f) => (f.t < m ? f.t : m), db.meta.generated).slice(0, 10), hi = db.meta.generated.slice(0, 10);
+    const clamp = (d) => (!d || d > hi ? hi : d < lo ? lo : d);
+    let a = clamp(settings.from), b = clamp(settings.to || hi);
+    if (a > b) [a, b] = [b, a];
+    settings.from = a; settings.to = b;
+    return [new Date(a + "T00:00"), new Date(b + "T23:59")];
   }
   const hours = { "24h": 24, "3d": 72, "7d": 168, "30d": 720 }[settings.win] || 24;
   return [new Date(end - hours * 3600e3), end];

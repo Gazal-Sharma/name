@@ -127,7 +127,7 @@ function ledger(L) {
 
 export function render() {
   const demo = db.meta.demo || [];
-  const head = `<header class="top"><span class="mark">FINN</span><span class="asof">Primary sources only<button class="help" data-guide>New here?</button></span></header>
+  const head = `<header class="top"><span class="mark">FINN</span><span class="asof">Primary sources only</span></header>
     <form class="search" data-form="research"><input name="sym" placeholder="Any NSE symbol, e.g. KPITTECH" value="${esc(state.sym || "")}" autocomplete="off" autocapitalize="characters" aria-label="NSE symbol"><button class="btn">Research</button></form>
     <div class="cats">${demo.map((s) => `<a class="chip" href="#/research/${s}">${s}</a>`).join("")}</div>`;
   if (!state.sym) return `${head}<h1 class="lede">What did management promise, and did they deliver?</h1>

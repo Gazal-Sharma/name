@@ -4,11 +4,12 @@ import { closeSheet, openSheet } from "./ui.js";
 import * as today from "./today.js";
 import * as watch from "./watch.js";
 import * as research from "./research.js";
-import { TERMS, CATS, GUIDE } from "./glossary.js";
+import * as learn from "./learn.js";
+import { TERMS, CATS } from "./glossary.js";
 import { esc } from "./ui.js";
 
 const app = document.getElementById("app");
-const screens = { today, watch, research };
+const screens = { today, watch, research, learn };
 let tab = "today";
 
 function route() {
@@ -32,7 +33,7 @@ document.addEventListener("click", (e) => {
   const g = e.target.closest("[data-term], [data-cat].term, [data-guide]");
   if (g) {
     e.stopPropagation();
-    if (g.dataset.guide !== undefined) return openSheet(GUIDE);
+    if (g.dataset.guide !== undefined) { location.hash = "#/learn"; return; }
     if (g.dataset.term && TERMS[g.dataset.term]) return openSheet(`<h3>${esc(TERMS[g.dataset.term][0])}</h3><p>${esc(TERMS[g.dataset.term][1])}</p>`);
     if (g.dataset.cat && CATS[g.dataset.cat]) return openSheet(`<h3>${esc(db.meta.labels[g.dataset.cat] || g.dataset.cat)}</h3><p>${esc(CATS[g.dataset.cat])}</p>`);
     return;
@@ -40,6 +41,14 @@ document.addEventListener("click", (e) => {
   const el = e.target.closest("[data-act]");
   if (!el) return;
   const act = el.dataset.act;
+  if (act === "explain") {
+    const ctx = today.contextFor(el.dataset.id);
+    openSheet(`<h3>In plain English</h3><p id="xp">Reading the filing for you</p>`);
+    learn.ask("Explain this filing to me simply: what happened, and why might an investor care?", ctx)
+      .then((a) => { const p = document.getElementById("xp"); if (p) p.textContent = a; })
+      .catch((err) => { const p = document.getElementById("xp"); if (p) p.textContent = `Could not explain this one: ${err.message}.`; });
+    return;
+  }
   if (act === "related" || act === "whyhere") { const html = today.sheetFor(act, el.dataset.id); if (html) openSheet(html); return; }
   screens[tab].handle?.(act, el, paint);
 });
@@ -53,6 +62,7 @@ document.addEventListener("change", (e) => {
   });
 });
 document.addEventListener("submit", (e) => {
+  if (e.target.dataset.form === "ask") { e.preventDefault(); return learn.submit(new FormData(e.target).get("q").trim(), paint); }
   if (e.target.dataset.form !== "research") return;
   e.preventDefault();
   const sym = new FormData(e.target).get("sym").trim().toUpperCase();

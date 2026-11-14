@@ -22,7 +22,7 @@ export function render() {
   const list = alerts();
   const cats = Object.entries(db.meta.labels).filter(([c]) => c !== "unclassified");
   return `
-  <header class="top"><span class="mark">FINN</span><span class="asof">Prices to ${day(db.meta.price_date)}<button class="help" data-guide>New here?</button></span></header>
+  <header class="top"><span class="mark">FINN</span><span class="asof">Prices to ${day(db.meta.price_date)}</span></header>
   <h1 class="lede">Tell FINN what counts as unusual.</h1>
   <div class="ctl">
     <label for="mv">Price move in a day <output id="mvo">±${settings.movePct}%</output></label>
