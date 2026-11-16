@@ -2,6 +2,17 @@
 {
 "symbol": "BHARTIARTL",
 "sm_name": "Bharti Airtel Limited",
+"desc": "Action(s) taken or orders passed",
+"an_dt": "16-Nov-2026 19:07:17",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_16112026190520_BhartiAirtelSTXdisclosure.pdf",
+"attchmntText": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
+"voiceSummary": "Bharti Airtel Limited received a notice from the Department of Telecommunications, Kerala LSA, on November 16, 2026, imposing a penalty of Rs. 13,72,000 for alleged violation of subscriber verification norms. The authority cited non-compliance with licensing terms regarding customer verification during a Customer Application Form Audit for August 2026. The company has opted not to contest the notice and will pay the penalty. The maximum financial impact is limited to the levied penalty amount.",
+"seq_id": "106862795",
+"fileSize": "289.84 KB"
+},
+{
+"symbol": "BHARTIARTL",
+"sm_name": "Bharti Airtel Limited",
 "desc": "Copy of Newspaper Publication",
 "an_dt": "14-Nov-2026 15:52:08",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_14112026155152_STX_intimation.pdf",
@@ -2539,16 +2550,5 @@
 "voiceSummary": null,
 "seq_id": "106447226",
 "fileSize": "326.67 KB"
-},
-{
-"symbol": "BHARTIARTL",
-"sm_name": "Bharti Airtel Limited",
-"desc": "Action(s) taken or orders passed",
-"an_dt": "14-Nov-2025 21:55:11",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_14112025215352_Reg30DoTNov14Karnataka_signed.pdf",
-"attchmntText": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-"voiceSummary": null,
-"seq_id": "106445766",
-"fileSize": "288.08 KB"
 }
 ]

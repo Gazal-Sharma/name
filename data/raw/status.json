@@ -1,109 +1,109 @@
 {
- "ran_at": "2026-11-14T19:19:20.736938Z",
+ "ran_at": "2026-11-16T22:28:55.059533Z",
  "errors": [],
  "prices": {
   "INFY": [
-   400,
+   399,
    "2026-11-13"
   ],
   "HCLTECH": [
-   400,
+   399,
    "2026-11-13"
   ],
   "PERSISTENT": [
-   400,
+   399,
    "2026-11-13"
   ],
   "HDFCBANK": [
-   400,
+   399,
    "2026-11-13"
   ],
   "ICICIBANK": [
-   400,
+   399,
    "2026-11-13"
   ],
   "BAJFINANCE": [
-   400,
+   399,
    "2026-11-13"
   ],
   "CDSL": [
-   400,
+   399,
    "2026-11-13"
   ],
   "TITAN": [
-   400,
+   399,
    "2026-11-13"
   ],
   "TRENT": [
-   400,
+   399,
    "2026-11-13"
   ],
   "ETERNAL": [
-   400,
+   399,
    "2026-11-13"
   ],
   "LT": [
-   400,
+   399,
    "2026-11-13"
   ],
   "POLYCAB": [
-   400,
+   399,
    "2026-11-13"
   ],
   "DIXON": [
-   400,
+   399,
    "2026-11-13"
   ],
   "RELIANCE": [
-   400,
+   399,
    "2026-11-13"
   ],
   "BHARTIARTL": [
-   400,
+   399,
    "2026-11-13"
   ],
   "SUNPHARMA": [
-   400,
+   399,
    "2026-11-13"
   ],
   "MARUTI": [
-   400,
+   399,
    "2026-11-13"
   ],
   "INDIGO": [
-   400,
+   399,
    "2026-11-13"
   ],
   "NIFTY": [
-   399,
+   398,
    "2026-11-13"
   ]
  },
  "filings": {
-  "INFY": 215,
-  "HCLTECH": 217,
+  "INFY": 214,
+  "HCLTECH": 216,
   "PERSISTENT": 275,
-  "HDFCBANK": 157,
+  "HDFCBANK": 156,
   "ICICIBANK": 240,
-  "BAJFINANCE": 106,
-  "CDSL": 110,
+  "BAJFINANCE": 107,
+  "CDSL": 111,
   "TITAN": 136,
   "TRENT": 112,
   "ETERNAL": 70,
   "LT": 181,
-  "POLYCAB": 152,
-  "DIXON": 163,
+  "POLYCAB": 153,
+  "DIXON": 165,
   "RELIANCE": 167,
   "BHARTIARTL": 232,
   "SUNPHARMA": 132,
-  "MARUTI": 149,
-  "INDIGO": 153
+  "MARUTI": 148,
+  "INDIGO": 152
  },
  "desc_counts": {
-  "Analysts/Institutional Investor Meet/Con. Call Updates": 546,
-  "General Updates": 460,
-  "Updates": 417,
-  "Copy of Newspaper Publication": 195,
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 545,
+  "General Updates": 461,
+  "Updates": 416,
+  "Copy of Newspaper Publication": 194,
   "Press Release": 183,
   "ESOP/ESOS/ESPS": 140,
   "Shareholders meeting": 114,
@@ -115,7 +115,7 @@
   "Disclosure under SEBI Takeover Regulations": 45,
   "News Verification": 44,
   "Bagging/Receiving of orders/contracts": 43,
-  "Credit Rating": 40,
+  "Credit Rating": 41,
   "Allotment of Securities": 37,
   "Change in Management": 32,
   "Appointment": 31,
@@ -142,13 +142,13 @@
   "Credit Rating- Revision": 5,
   "Amendment to AOA/MOA": 4,
   "Options to purchase securities": 4,
+  "Agreements": 3,
   "Statement of deviation(s) or variation(s) under Reg. 32": 3,
   "Commencement of commercial production/operations": 3,
   "Capacity addition": 3,
   "Corrigendum": 2,
   "Suspension of Trading": 2,
   "Rumour Verification - Regulation 30(11)": 2,
-  "Agreements": 2,
   "Memorandum of Understanding/Agreements": 2,
   "Post Buyback Public Announcement": 1,
   "Buyback": 1,
@@ -212,17 +212,17 @@
   "ETERNAL": [
    "Eternal Ltd",
    "Sep 2026",
-   24
+   23
   ],
   "LT": [
    "Larsen & Toubro Ltd",
    "Sep 2026",
-   67
+   66
   ],
   "POLYCAB": [
    "Polycab India Ltd",
    "Sep 2026",
-   47
+   46
   ],
   "DIXON": [
    "Dixon Technologies (India) Ltd",
@@ -232,12 +232,12 @@
   "RELIANCE": [
    "Reliance Industries Ltd",
    "Sep 2026",
-   48
+   47
   ],
   "BHARTIARTL": [
    "Bharti Airtel Ltd",
    "Sep 2026",
-   43
+   42
   ],
   "SUNPHARMA": [
    "Sun Pharmaceutical Industries Ltd",
@@ -252,7 +252,7 @@
   "INDIGO": [
    "Interglobe Aviation Ltd",
    "Sep 2026",
-   51
+   50
   ],
   "KPITTECH": [
    "KPIT Technologies Ltd",

@@ -2,6 +2,17 @@
 {
 "symbol": "TRENT",
 "sm_name": "Trent Limited",
+"desc": "Credit Rating",
+"an_dt": "16-Nov-2026 17:02:39",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/TRENT_16112026170133_BSENSECARERATING161120260signed.pdf",
+"attchmntText": "Trent Limited has informed the Exchange about Credit Rating",
+"voiceSummary": "Trent Limited intimates that CARE Ratings Limited re-affirmed the credit rating on its Commercial Papers on 16th November 2026 at 3.17 p.m. The rating for Commercial Papers is CARE A1+. The limit for these Commercial Papers has been enhanced to \u20b9 750 Crore from \u20b9 500 Crore. This information is available on the company website at https://trentlimited.com/.",
+"seq_id": "106862412",
+"fileSize": "224.40 KB"
+},
+{
+"symbol": "TRENT",
+"sm_name": "Trent Limited",
 "desc": "General Updates",
 "an_dt": "13-Nov-2026 11:24:22",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/TRENT_13112026112141_Reg_30_-_Dematerialisation_letter_to_shareholders.pdf",
@@ -17,7 +28,7 @@
 "an_dt": "09-Nov-2026 13:00:58",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/TRENT_09112026125235_Investor_Analyst_Meeting_09112026.pdf",
 "attchmntText": "Trent Limited has informed the Exchange about intimation of schedule of Analyst / Institutional Investors Meetings",
-"voiceSummary": "Trent Limited has intimated the schedule of meetings with analysts and institutional investors pursuant to Regulation 30 of the SEBI Listing Obligations and Disclosure Requirements Regulations, 2015. Wasatch Global Advisors and Kotak Mahindra Asset Management Singapore are scheduled for one-to-one meetings on 17th November 2026. CEO Track JM Financial will participate in the 17th Annual Flagship Conference India Xchange 2026 on 18th November 2026. RBC Global Asset Management Asia is scheduled for a one-to-one meeting on 24th November 2026. T. Rowe Price Aayush Kumar will hold a one-to-one meeting on 25th November 2026. JP Morgan Asset Management is scheduled for a one-to-one meeting on 26th November 2026. The schedule is subject to change. No unpublished price sensitive information will be shared during these meetings.",
+"voiceSummary": null,
 "seq_id": "106853294",
 "fileSize": "307.47 KB"
 },
@@ -1219,16 +1230,5 @@
 "voiceSummary": null,
 "seq_id": "106451731",
 "fileSize": "239.68 KB"
-},
-{
-"symbol": "TRENT",
-"sm_name": "Trent Limited",
-"desc": "Analysts/Institutional Investor Meet/Con. Call Updates",
-"an_dt": "14-Nov-2025 11:03:28",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/TRENT_14112025110303_InvestorAnalystMeeting14112025.pdf",
-"attchmntText": "Trent Limited has informed the Exchange about Intimation of schedule of Analyst / Institutional Investors Meetings",
-"voiceSummary": null,
-"seq_id": "106443570",
-"fileSize": "237.63 KB"
 }
 ]

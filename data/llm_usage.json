@@ -102,5 +102,44 @@
   "at": "2026-11-15T00:56",
   "stage": "snapshot",
   "usage": {}
+ },
+ {
+  "at": "2026-11-16T22:33Z",
+  "stage": "research",
+  "usage": {
+   "extract": {
+    "calls": 1,
+    "cache_hits": 4,
+    "tokens_in": 13563,
+    "tokens_out": 1103,
+    "models": {
+     "gemini-3.5-flash-lite": 1
+    }
+   },
+   "reason": {
+    "calls": 1,
+    "cache_hits": 0,
+    "tokens_in": 3497,
+    "tokens_out": 4105,
+    "models": {
+     "gemini-3.6-flash": 1
+    }
+   }
+  }
+ },
+ {
+  "at": "2026-11-17T04:03",
+  "stage": "snapshot",
+  "usage": {
+   "triage": {
+    "calls": 4,
+    "cache_hits": 0,
+    "tokens_in": 6425,
+    "tokens_out": 416,
+    "models": {
+     "gemini-3.5-flash-lite": 4
+    }
+   }
+  }
  }
 ]

@@ -2,6 +2,17 @@
 {
 "symbol": "ICICIBANK",
 "sm_name": "ICICI Bank Limited",
+"desc": "ESOP/ESOS/ESPS",
+"an_dt": "16-Nov-2026 10:16:36",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_16112026101507_Lettertoexchange.pdf",
+"attchmntText": "ICICI Bank Limited has informed the Exchange regarding Allotment of 3271754  Shares.",
+"voiceSummary": "ICICI Bank allotted 3,271,754 equity shares of face value Rs. 2 each on November 16, 2026 under the ICICI Bank Employees Stock Option Scheme-2000. The allotment was approved by two Executive Directors at 9.53 a.m. on the same date. This approval was pursuant to powers delegated by the Board of Directors during a meeting held on October 21, 2023. The notice was issued by Chetan Pawar, Associate Leadership Team.",
+"seq_id": "106861759",
+"fileSize": "354.02 KB"
+},
+{
+"symbol": "ICICIBANK",
+"sm_name": "ICICI Bank Limited",
 "desc": "General Updates",
 "an_dt": "12-Nov-2026 18:08:20",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICI2022_12112026180755_BSENSE12112026.pdf",
@@ -17,7 +28,7 @@
 "an_dt": "09-Nov-2026 13:44:24",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICI2022_09112026134356_BSENSE_09112026.pdf",
 "attchmntText": "ICICI Bank Limited has informed the Exchange about Disclosure under Regulation 30 read with para A of Schedule III and Regulation 46(2) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015",
-"voiceSummary": "ICICI Bank Limited has disclosed the schedule of investor meets under SEBI Listing Regulations. The bank will refer to publicly available documents during these interactions. The scheduled events include the CITIC CLSA India Forum 2026 on November 16, 2026, and the Investec Kotak Offshore Client Group Meeting on November 16, 2026, both held in person. On November 17, 2026, the bank will attend the JM Financial India Xchange 2026 and the Institutional Investor Meet, both in person. The Avendus Spark INDX Conference 2026 is scheduled for November 18, 2026, in person. The Morgan Stanley Twenty-Fifth Annual Asia Pacific Summit will take place from November 18 to 19, 2026, in person. Finally, the CLSA Financials Trip is set for November 19, 2026, in person.",
+"voiceSummary": null,
 "seq_id": "106853322",
 "fileSize": "3.13 MB"
 },
@@ -2627,16 +2638,5 @@
 "voiceSummary": null,
 "seq_id": "106450022",
 "fileSize": "199.27 KB"
-},
-{
-"symbol": "ICICIBANK",
-"sm_name": "ICICI Bank Limited",
-"desc": "Updates",
-"an_dt": "14-Nov-2025 16:50:48",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICI2022_14112025164629_NSEBSE_14112025.pdf",
-"attchmntText": "ICICI Bank Limited has informed the Exchange regarding 'Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015'.",
-"voiceSummary": null,
-"seq_id": "106444535",
-"fileSize": "174.85 KB"
 }
 ]

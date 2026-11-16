@@ -1909,5 +1909,37 @@
 "why": "Routine capacity expansion; no capital expenditure amount disclosed relative to revenue.",
 "amount_cr": null,
 "people": []
+},
+"106863079": {
+"category": "fund_raise",
+"materiality": 1,
+"headline": "Closed QIP raising capital via 114.15M equity shares at ₹1,025 each",
+"why": "Significant equity dilution of 114.1M+ shares raising over ₹11,700 Cr, impacting existing shareholder ownership.",
+"amount_cr": 11700.0,
+"people": []
+},
+"106862868": {
+"category": "M&A",
+"materiality": 2,
+"headline": "Acquiring movable assets from Vimal Plast for up to Rs 49.75 Cr",
+"why": "Acquires R&D lab equipment, moulds, and machinery for Rs 49.75 Cr (~0.08% of revenue) to strengthen washing machine ODM business.",
+"amount_cr": 49.75,
+"people": []
+},
+"106862826": {
+"category": "investor_meetings",
+"materiality": 3,
+"headline": "Executives participated in CLSA India Forum on November 16, 2026",
+"why": "Routine update on institutional investor meetings with no unpublished price sensitive information shared.",
+"amount_cr": null,
+"people": []
+},
+"106862795": {
+"category": "litigation",
+"materiality": 3,
+"headline": "DoT imposes Rs. 13.72 lakh penalty for subscriber verification norms",
+"why": "Penalty of Rs. 0.00137 Cr is negligible relative to Rs. 228,781 Cr revenue and company has opted to pay.",
+"amount_cr": 0.001372,
+"people": []
 }
 }

@@ -2,6 +2,17 @@
 {
 "symbol": "RELIANCE",
 "sm_name": "Reliance Industries Limited",
+"desc": "Updates",
+"an_dt": "16-Nov-2026 19:26:15",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_16112026192449_SE_16112026__1_.pdf",
+"attchmntText": "This is further to the disclosure dated November 6, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - CLSA India Forum and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
+"voiceSummary": "Reliance Industries Limited provides an update on its Institutional Investors Meeting. The company executives participated in the CLSA India Forum held in Mumbai on November 16, 2026. This event was organized by a third party. The company confirms that no unpublished price sensitive information was shared or discussed during the meeting. This disclosure follows the previous announcement made on November 6, 2026. The information is submitted for records to the BSE Limited, National Stock Exchange of India Limited, Luxembourg Stock Exchange, and Singapore Exchange Limited.",
+"seq_id": "106862826",
+"fileSize": "203.29 KB"
+},
+{
+"symbol": "RELIANCE",
+"sm_name": "Reliance Industries Limited",
 "desc": "Analysts/Institutional Investor Meet/Con. Call Updates",
 "an_dt": "13-Nov-2026 18:25:01",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_13112026182446_SE_13112026.pdf",
@@ -1824,16 +1835,5 @@
 "voiceSummary": null,
 "seq_id": "106447959",
 "fileSize": "192.08 KB"
-},
-{
-"symbol": "RELIANCE",
-"sm_name": "Reliance Industries Limited",
-"desc": "Analysts/Institutional Investor Meet/Con. Call Updates",
-"an_dt": "14-Nov-2025 18:10:30",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_14112025181015_SE_14112025.pdf",
-"attchmntText": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - Morgan Stanley 24th Annual Asia-Pacific Summit, scheduled to be held on November 19, 2025 & November 20, 2025 at Singapore. It is expected that the meeting with the investors will be on one-on-one basis.",
-"voiceSummary": null,
-"seq_id": "106445016",
-"fileSize": "174.33 KB"
 }
 ]
