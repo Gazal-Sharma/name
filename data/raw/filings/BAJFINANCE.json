@@ -2,6 +2,17 @@
 {
 "symbol": "BAJFINANCE",
 "sm_name": "Bajaj Finance Limited",
+"desc": "Allotment of Securities",
+"an_dt": "17-Nov-2026 08:25:32",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_17112026082518_BSENSE_Intimationofallotment.pdf",
+"attchmntText": "Bajaj Finance Limited has informed the Exchange regarding allotment of 114146341 securities pursuant to Qualified Institution Placement at its meeting held on November 17, 2026",
+"voiceSummary": "Bajaj Finance Limited has allotted 114,146,341 equity shares to qualified institutional buyers at an issue price of Rs. 1,025 per share. The total amount raised is approximately Rs. 117,000 million. The allotment was approved by the QIP Allotment Committee on November 17, 2026. The floor price was Rs. 992.25 per share. The company's paid-up equity share capital has increased from Rs. 6,225.95 million to Rs. 6,340.10 million. The total number of equity shares has risen from 6,225,954,304 to 6,340,100,645. ICICI Prudential Mutual Fund was allotted 11,707,317 shares, representing 10.26 percent of the issue. Government Pension Fund Global was allotted 5,849,421 shares, representing 5.12 percent of the issue.",
+"seq_id": "106863135",
+"fileSize": "341.44 KB"
+},
+{
+"symbol": "BAJFINANCE",
+"sm_name": "Bajaj Finance Limited",
 "desc": "General Updates",
 "an_dt": "16-Nov-2026 23:49:36",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_16112026234915_BSENSE_Intimation_Issue_closing_pricing.pdf",
@@ -28,7 +39,7 @@
 "an_dt": "10-Nov-2026 12:58:49",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_10112026125828_BFL_Reg_30__Allotment_of_warrants_Final_1.pdf",
 "attchmntText": "Bajaj Finance Limited has informed the Exchange regarding allotment of 5,74,25,740 securities pursuant to Preferential Issue at its meeting held on November 10, 2026",
-"voiceSummary": "Bajaj Finance Limited has approved the preferential allotment of 5,74,25,740 warrants to its holding company, Bajaj Finserv Limited. The allotment was approved by the PI 2026 Allotment Committee on 10 November 2026. Each warrant is priced at Rs. 1,010 and is convertible into one equity share of face value Re. 1. The warrants are convertible into equity shares pari passu with existing fully paid-up shares. Upon issuance, a minimum of 25 percent of the consideration is payable on the date of allotment. The remaining 75 percent is payable when the options against the warrants are exercised. If the allottee does not exercise the option within eighteen months from the date of allotment, the consideration amount shall be forfeited by the company.",
+"voiceSummary": null,
 "seq_id": "106854062",
 "fileSize": "273.59 KB"
 },
@@ -39,7 +50,7 @@
 "an_dt": "10-Nov-2026 12:15:58",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/BAJFINANCE_10112026121523_BFL_Reg_30_Outcome_PricingofPIpostVRFinal.pdf",
 "attchmntText": "Bajaj Finance Limited has informed the Exchange regarding Outcome of PI 2026 - Special Committee Meeting held on November 10, 2026.",
-"voiceSummary": "Bajaj Finance Limited has approved a preferential issue of 5,74,25,740 warrants to its promoter, Bajaj Finserv Limited. The approval was granted by the Special Committee of the Board of Directors during its meeting on 10 November 2026. Each warrant is issued at a price of Rs. 1,010. The total aggregation of the issue amounts to Rs. 57,99,99,97,400. These warrants are convertible into equivalent equity shares with a face value of Rs. 1 each. The transaction follows the provisions of Chapter V of the SEBI ICDR Regulations, 2018. This disclosure is made under Regulation 30 of the SEBI Listing Obligations and Disclosure Requirements Regulations, 2015. The company has informed the BSE and NSE regarding this corporate action.",
+"voiceSummary": null,
 "seq_id": "106854034",
 "fileSize": "230.68 KB"
 },

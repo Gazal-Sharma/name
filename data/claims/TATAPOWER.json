@@ -1,5 +1,74 @@
 [
  {
+  "month": "Nov 2026",
+  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af35c243-2088-4dae-aa78-5a1346d756cd.pdf",
+  "pages": 12,
+  "quarter": "Q2 FY27",
+  "business": "Tata Power Company Ltd operates across power generation, transmission, distribution, and renewable energy segments. It engages in utility-scale and rooftop solar, solar manufacturing, pump hydro projects, and power distribution through various DISCOMs.",
+  "guidance": [
+   {
+    "topic": "FY27 capex completion target",
+    "metric": "capex",
+    "period": "FY27",
+    "said": "The company is on track to complete nearly INR25,000 crores of capex for the year.",
+    "low": 25000,
+    "high": 25000,
+    "unit": "Rs Cr",
+    "change": "reiterated",
+    "quote": "And we have already done INR10,000 crores of capex, and we are on track to complete nearly INR25,000 crores of capex for the year.",
+    "speaker": "Praveer Sinha",
+    "page": 4,
+    "quote_verified": true
+   },
+   {
+    "topic": "FY27 renewable capacity addition",
+    "metric": "capacity",
+    "period": "FY27",
+    "said": "The company's capacity addition target is 2.5 GW for the year.",
+    "low": 2.5,
+    "high": 2.5,
+    "unit": "other",
+    "change": "reiterated",
+    "quote": "So, we expect that this year target is 2.5 GW of capacity addition, and we will be able to meet that.",
+    "speaker": "Praveer Sinha",
+    "page": 6,
+    "quote_verified": true
+   }
+  ],
+  "reported": [
+   {
+    "topic": "Q2 FY27 Profit After Tax",
+    "value": "INR1,652 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "Q2 FY27 Revenue",
+    "value": "INR19,886 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "H1 FY27 Profit After Tax",
+    "value": "INR3,053 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "H1 FY27 Revenue",
+    "value": "INR38,784 crores",
+    "page": 3,
+    "quote_verified": true
+   },
+   {
+    "topic": "H1 FY27 EBITDA",
+    "value": "INR8,494 crores",
+    "page": 3,
+    "quote_verified": true
+   }
+  ]
+ },
+ {
   "month": "Jul 2026",
   "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2eec946-af3f-4579-8a6b-1483aa6f7312.pdf",
   "pages": 21,
@@ -401,117 +470,6 @@
     "topic": "H1 FY26 capex incurred",
     "value": "Rs. 7,349 crores",
     "page": 5,
-    "quote_verified": true
-   }
-  ]
- },
- {
-  "month": "Aug 2025",
-  "url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ed5c7d7-8483-462f-9d08-041954bd624d.pdf",
-  "pages": 20,
-  "quarter": "Q1 FY26",
-  "business": "Tata Power Company Ltd is an integrated power company operating across power generation (thermal, hydro, solar, wind, and pumped hydro), transmission, distribution, solar cell and module manufacturing, solar EPC, rooftop solar, and EV charging infrastructure. Its core business segments cover power generation, transmission and distribution, and renewable energy businesses.",
-  "guidance": [
-   {
-    "topic": "Odisha AT&C losses reduction",
-    "metric": "margin",
-    "period": "next 3 years",
-    "said": "We are still in some places in 17%-18% range. We do expect that in the next 3 years, we will bring down to about 10% range and the type of reductions that we have seen in last 4 years, this trend will continue and that will help us in getting better returns.",
-    "low": 10,
-    "high": 10,
-    "unit": "%",
-    "change": "unclear",
-    "quote": "We are still in some places in 17%-18% range. We do expect that in the next 3 years, we will bring down to about 10% range and the type of reductions that we have seen in last 4 years, this trend will continue",
-    "speaker": "Dr. Praveer Sinha",
-    "page": 6,
-    "quote_verified": true
-   },
-   {
-    "topic": "Own utility scale projects capacity",
-    "metric": "capacity",
-    "period": "next three quarters",
-    "said": "We expect nearly 1,600 megawatt of own utility scale projects to come up in the next three quarters and that will help us in enhancing the operating capacity of the renewable business.",
-    "low": 1600,
-    "high": 1600,
-    "unit": "other",
-    "change": "unclear",
-    "quote": "We expect nearly 1,600 megawatt of own utility scale projects to come up in the next three quarters and that will help us in enhancing the operating capacity of the renewable business.",
-    "speaker": "Dr. Praveer Sinha",
-    "page": 4,
-    "quote_verified": true
-   },
-   {
-    "topic": "Full year capex plan",
-    "metric": "capex",
-    "period": "full year FY26",
-    "said": "We spent in this quarter Rs. 3,700 crores against our full year plan of Rs. 25,000 crores and we are on track to implement all those projects.",
-    "low": 25000,
-    "high": 25000,
-    "unit": "Rs Cr",
-    "change": "reiterated",
-    "quote": "We spent in this quarter Rs. 3,700 crores against our full year plan of Rs. 25,000 crores and we are on track to implement all those projects.",
-    "speaker": "Dr. Praveer Sinha",
-    "page": 5,
-    "quote_verified": true
-   },
-   {
-    "topic": "Pumped hydro commissioning",
-    "metric": "capacity",
-    "period": "2028-29",
-    "said": "We have already started work on our pumped hydro project in the last quarter and we expect that this will get commissioned by 2028-29.",
-    "low": null,
-    "high": null,
-    "unit": "other",
-    "change": "unclear",
-    "quote": "We have already started work on our pumped hydro project in the last quarter and we expect that this will get commissioned by 2028-29.",
-    "speaker": "Dr. Praveer Sinha",
-    "page": 5,
-    "quote_verified": true
-   },
-   {
-    "topic": "Bhutan project commissioning",
-    "metric": "capacity",
-    "period": "2029",
-    "said": "Similarly, the work on the Bhutan project started in January this year that will also get commissioned in 29.",
-    "low": null,
-    "high": null,
-    "unit": "other",
-    "change": "unclear",
-    "quote": "Similarly, the work on the Bhutan project started in January this year that will also get commissioned in 29.",
-    "speaker": "Dr. Praveer Sinha",
-    "page": 5,
-    "quote_verified": true
-   }
-  ],
-  "reported": [
-   {
-    "topic": "Q1 FY26 net debt",
-    "value": "Rs. 47,578 crores",
-    "page": 5,
-    "quote_verified": true
-   },
-   {
-    "topic": "Q1 FY26 capex spend",
-    "value": "Rs. 3,700 crores",
-    "page": 5,
-    "quote_verified": true
-   },
-   {
-    "topic": "Q1 FY26 renewable EPC commissioning",
-    "value": "652 megawatt",
-    "page": 4,
-    "quote_verified": true
-   },
-   {
-    "topic": "Q1 FY26 solar module manufacturing",
-    "value": "950 megawatts",
-    "page": 4,
-    "quote_verified": true
-   },
-   {
-    "topic": "Q1 FY26 solar cell manufacturing",
-    "value": "900-odd megawatt",
-    "page": 4,
     "quote_verified": true
    }
   ]

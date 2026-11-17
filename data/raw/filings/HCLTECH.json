@@ -2,6 +2,17 @@
 {
 "symbol": "HCLTECH",
 "sm_name": "HCL Technologies Limited",
+"desc": "Updates",
+"an_dt": "17-Nov-2026 16:54:07",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/HCLTECH_17112026165358_Release17November2026.pdf",
+"attchmntText": "HCL Technologies Limited has informed the Exchange regarding 'Release    HCLTech and Cohere partner to build and deliver sovereign AI '.",
+"voiceSummary": "HCL Technologies Ltd. announced a partnership with Cohere to build and deliver sovereign AI solutions for enterprises and governments. HCLTech becomes a preferred global systems integrator partner for Cohere in Canada and Germany. The collaboration combines Cohere\u2019s sovereign AI platform, including the North agentic AI platform, with HCLTech\u2019s professional services and advanced AI capabilities. Initial focus areas include insurance, financial services, and manufacturing. Solutions will address data residency, security, and regulatory requirements. Both companies hold ISO 42001 certification. HCLTech reported consolidated revenues of $14.8 billion for the twelve months ending September 2026. The announcement was issued on November 17, 2026.",
+"seq_id": "106863775",
+"fileSize": "237.03 KB"
+},
+{
+"symbol": "HCLTECH",
+"sm_name": "HCL Technologies Limited",
 "desc": "Copy of Newspaper Publication",
 "an_dt": "13-Nov-2026 16:02:07",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/HCLTECH_13112026155901_IntimationtostockexchangesNov.pdf",
@@ -28,7 +39,7 @@
 "an_dt": "10-Nov-2026 22:46:15",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/HCLTECH_10112026224547_Release10Nov2026.pdf",
 "attchmntText": "HCL Technologies Limited has informed the Exchange regarding 'Release-  HCLTech and PTC collaborate to accelerate semiconductor product lifecycle management '.",
-"voiceSummary": "HCL Technologies Ltd. has announced a collaboration with PTC to accelerate semiconductor product lifecycle management. The partnership involves launching a pre-configured semiconductor Product Lifecycle Management solution built on the PTC Windchill platform. This solution aims to streamline product development, strengthen quality and compliance, and reduce operational complexity. It connects people, processes, and data across the semiconductor lifecycle, including IP management, new product introduction, supplier collaboration, and regulatory compliance. The solution integrates with existing business, manufacturing, and design systems for end-to-end visibility. HCLTech and PTC stated that the collaboration helps customers modernize product development and management at scale. The announcement was filed with the BSE and NSE on November 10, 2026.",
+"voiceSummary": null,
 "seq_id": "106854531",
 "fileSize": "281.20 KB"
 },

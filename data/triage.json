@@ -1941,5 +1941,37 @@
 "why": "Penalty of Rs. 0.00137 Cr is negligible relative to Rs. 228,781 Cr revenue and company has opted to pay.",
 "amount_cr": 0.001372,
 "people": []
+},
+"106864030": {
+"category": "investor_meetings",
+"materiality": 3,
+"headline": "Participation in JM Financial India Conference",
+"why": "Routine investor meeting update confirming no unpublished price sensitive information was shared.",
+"amount_cr": null,
+"people": []
+},
+"106863775": {
+"category": "press_release",
+"materiality": 3,
+"headline": "Partnered with Cohere to build and deliver sovereign AI solutions",
+"why": "Strategic partnership for sovereign AI solutions in Canada and Germany with no immediate financial figures disclosed.",
+"amount_cr": null,
+"people": []
+},
+"106863621": {
+"category": "press_release",
+"materiality": 3,
+"headline": "Positioned as a Leader in 2026 Gartner Magic Quadrant for Public Cloud Services",
+"why": "Routine marketing award acknowledging cloud optimization services for the fourth consecutive year, no direct financial impact disclosed.",
+"amount_cr": null,
+"people": []
+},
+"106863135": {
+"category": "fund_raise",
+"materiality": 1,
+"headline": "Allotted 11.41Cr shares via QIP at Rs 1,025/share raising Rs 11,700 Cr",
+"why": "Raised Rs 11,700 Cr (~13% of TTM revenue) via QIP, expanding paid-up share capital from 6.23B to 6.34B shares.",
+"amount_cr": 11700.0,
+"people": []
 }
 }
