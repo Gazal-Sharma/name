@@ -1,111 +1,111 @@
 {
- "ran_at": "2026-11-17T21:17:12.667822Z",
+ "ran_at": "2026-11-18T20:52:04.763928Z",
  "errors": [],
  "prices": {
   "INFY": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "HCLTECH": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "PERSISTENT": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "HDFCBANK": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "ICICIBANK": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "BAJFINANCE": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "CDSL": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "TITAN": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "TRENT": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "ETERNAL": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "LT": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "POLYCAB": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "DIXON": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "RELIANCE": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "BHARTIARTL": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "SUNPHARMA": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "MARUTI": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "INDIGO": [
    399,
-   "2026-11-16"
+   "2026-11-17"
   ],
   "NIFTY": [
    398,
-   "2026-11-16"
+   "2026-11-17"
   ]
  },
  "filings": {
-  "INFY": 215,
-  "HCLTECH": 217,
+  "INFY": 216,
+  "HCLTECH": 216,
   "PERSISTENT": 275,
   "HDFCBANK": 158,
-  "ICICIBANK": 240,
+  "ICICIBANK": 241,
   "BAJFINANCE": 108,
   "CDSL": 112,
-  "TITAN": 136,
+  "TITAN": 137,
   "TRENT": 113,
   "ETERNAL": 70,
   "LT": 181,
   "POLYCAB": 153,
   "DIXON": 165,
-  "RELIANCE": 168,
-  "BHARTIARTL": 232,
-  "SUNPHARMA": 132,
-  "MARUTI": 148,
+  "RELIANCE": 167,
+  "BHARTIARTL": 231,
+  "SUNPHARMA": 131,
+  "MARUTI": 147,
   "INDIGO": 152
  },
  "desc_counts": {
-  "Analysts/Institutional Investor Meet/Con. Call Updates": 547,
-  "General Updates": 461,
-  "Updates": 420,
-  "Copy of Newspaper Publication": 194,
-  "Press Release": 183,
-  "ESOP/ESOS/ESPS": 141,
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 548,
+  "General Updates": 460,
+  "Updates": 419,
+  "Copy of Newspaper Publication": 195,
+  "Press Release": 181,
+  "ESOP/ESOS/ESPS": 142,
   "Shareholders meeting": 114,
   "Outcome of Board Meeting": 106,
   "Action(s) taken or orders passed": 98,
@@ -139,8 +139,8 @@
   "Amalgamation/Merger": 6,
   "Retirement": 6,
   "Change in Auditors": 6,
-  "Credit Rating- Revision": 5,
   "Amendment to AOA/MOA": 4,
+  "Credit Rating- Revision": 4,
   "Options to purchase securities": 4,
   "Agreements": 3,
   "Statement of deviation(s) or variation(s) under Reg. 32": 3,

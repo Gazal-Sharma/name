@@ -2,6 +2,17 @@
 {
 "symbol": "TITAN",
 "sm_name": "Titan Company Limited",
+"desc": "Analysts/Institutional Investor Meet/Con. Call Updates",
+"an_dt": "18-Nov-2026 20:53:56",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/TITAN_18112026205330_SEintimation_18_Nov_26.pdf",
+"attchmntText": "Titan Company Limited has informed the Exchange about Schedule of meet",
+"voiceSummary": "Titan Company Limited has disclosed the schedule for analyst and institutional investor meetings in November 2026. A group meeting is planned for 24th November 2026 from 9:00 a.m. to 10:00 a.m. at a physical venue. Participating firms include Alecta, Allianz Global Investors, Lazard Asset Management, Northrock Capital Management, Invesco Asset Management, and Tata Asset Management. The company states that no price sensitive information or forward looking statements will be disclosed during these meetings. The schedule is subject to change due to exigencies. This disclosure is made pursuant to Regulation 30 of the SEBI Listing Obligations and Disclosure Requirements Regulations 2015.",
+"seq_id": "106865393",
+"fileSize": "181.92 KB"
+},
+{
+"symbol": "TITAN",
+"sm_name": "Titan Company Limited",
 "desc": "General Updates",
 "an_dt": "12-Nov-2026 18:45:52",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/TITAN_12112026184505_SECPRedemption12112026.pdf",
@@ -28,7 +39,7 @@
 "an_dt": "11-Nov-2026 14:39:56",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/TITAN_11112026143915_SEearningcalltranscriptsQ2.pdf",
 "attchmntText": "Titan Company Limited has informed the Exchange about Earnings Call Transcripts",
-"voiceSummary": "Titan Company Limited filed a notice with BSE and NSE on 11th November 2026 regarding the transcript of the Q2 FY27 earnings conference call held on 5th November 2026. The transcript discusses unaudited financial results for the quarter ended 30th September 2026. Management reported consolidated growth driven by innovation. Titan Jewellery recorded a customs duty gain of Rs. 490 crores, while CaratLane recorded Rs. 46 crores. Normalized margins were stated as 11.1% for Titan Jewellery and 11.7% after adjusting for mark-to-market reversals. A fair value adjustment of Rs. 671 crores was recognized on the Damas acquisition liability. Management noted festive season trends showed strong starts and endings with softness in between due to gold price volatility. Investment buying remained soft, while studded jewellery demand was strong. Lower caratage jewellery adoption continues as a strategic long-term initiative. The board has approved raising Rs. 2,500 crores for replenishing existing borrowing.",
+"voiceSummary": null,
 "seq_id": "106855083",
 "fileSize": "427.06 KB"
 },
