@@ -1989,5 +1989,13 @@
 "why": "Minority investment of JPY 1.59bn (~Rs 87 Cr) is negligible compared to Rs 189k Cr revenue.",
 "amount_cr": 87.0,
 "people": []
+},
+"106866520": {
+"category": "investor_meetings",
+"materiality": 3,
+"headline": "Executives participated in Morgan Stanley 25th Annual Asia-Pacific Summit",
+"why": "Routine disclosure regarding institutional investor meetings where no unpublished price sensitive info was shared",
+"amount_cr": null,
+"people": []
 }
 }

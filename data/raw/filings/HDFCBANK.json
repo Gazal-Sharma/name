@@ -39,7 +39,7 @@
 "an_dt": "12-Nov-2026 17:33:25",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_12112026173223_SE_Intimation-_VSR.pdf",
 "attchmntText": "HDFC Bank Limited has informed the Exchange about Approval from the Reserve Bank of India for re-appointment of Mr. V. Srinivasa Rangan asthe Whole-time Director (designated as Executive Director) of HDFC Bank Limited",
-"voiceSummary": "HDFC Bank Limited has received approval from the Reserve Bank of India for the re-appointment of Mr. V. Srinivasa Rangan, holding DIN 00030248, as Whole-time Director designated as Executive Director. The approval was granted via RBI communication dated November 12, 2026. The re-appointment is for a period of one year, effective from November 23, 2026, at the extant remuneration. Mr. Rangan is not related to any other Director or Key Managerial Personnel of the Bank. He is not debarred from holding the office of a director by any SEBI order or other authority. This disclosure is made under Regulation 30 of the SEBI Listing Regulations.",
+"voiceSummary": null,
 "seq_id": "106857049",
 "fileSize": "669.76 KB"
 },
@@ -50,7 +50,7 @@
 "an_dt": "12-Nov-2026 14:27:53",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/HDFCBANK3_12112026142725_Analystmeetintimation12112026.pdf",
 "attchmntText": "HDFC Bank Limited has informed the Exchange about Schedule of meet",
-"voiceSummary": "HDFC Bank Limited has intimated the schedule for an analyst and institutional investor meeting under Regulation 30 of the SEBI Listing Obligations and Disclosure Requirements Regulations 2015. The meeting with Morgan Stanley is scheduled for the Twenty-Fifth Annual Asia Pacific Summit. The event will take place on November 18, 2026 to November 19, 2026. The mode of the meeting is in-person. The location is Singapore. The bank notes that the schedule may change due to attendee exigencies. Any revision will be communicated to the stock exchanges. This information is for dissemination purposes.",
+"voiceSummary": null,
 "seq_id": "106856600",
 "fileSize": "290.30 KB"
 },
@@ -1725,16 +1725,5 @@
 "voiceSummary": null,
 "seq_id": "106451959",
 "fileSize": "573.75 KB"
-},
-{
-"symbol": "HDFCBANK",
-"sm_name": "HDFC Bank Limited",
-"desc": "Credit Rating",
-"an_dt": "18-Nov-2025 15:25:21",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/HDFCBANK_18112025152058_Credit_rating_17Nov2025.pdf",
-"attchmntText": "HDFC Bank Limited has informed the Exchange about Credit Rating",
-"voiceSummary": null,
-"seq_id": "106448688",
-"fileSize": "1.05 MB"
 }
 ]

@@ -39,7 +39,7 @@
 "an_dt": "12-Nov-2026 17:36:21",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_12112026172851_Airtel_Stx_Intimation.pdf",
 "attchmntText": "Bharti Airtel Limited has informed the Exchange about Transcript",
-"voiceSummary": "Bharti Airtel Limited filed the transcript of its earnings call for the second quarter ended September 30, 2026, held on November 6, 2026. Consolidated revenue was approximately Rs. 60,900 Crores, with consolidated EBITDAaL at about Rs. 31,500 Crores. Capex for the quarter was about Rs. 12,500 Crores. The company reported operating free cash flow of over Rs. 19,000 Crores. Net debt to EBITDAaL improved to about 0.70. Airtel Money Africa listed on the London Stock Exchange in October at a valuation of about $7 billion. India mobile added 0.7 million revenue-earning customers. Homes delivered net adds of 670,000. Airtel Business revenues were about Rs. 5,800 Crores.",
+"voiceSummary": null,
 "seq_id": "106857062",
 "fileSize": "540.92 KB"
 },
@@ -2528,16 +2528,5 @@
 "voiceSummary": null,
 "seq_id": "106455119",
 "fileSize": "334.33 KB"
-},
-{
-"symbol": "BHARTIARTL",
-"sm_name": "Bharti Airtel Limited",
-"desc": "Action(s) taken or orders passed",
-"an_dt": "18-Nov-2025 12:43:24",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/BHARTIARTL_18112025124227_Reg30DoTNov17AndhraPradesh_signed.pdf",
-"attchmntText": "Bharti Airtel Limited has informed the Exchange about Action(s) taken or orders passed",
-"voiceSummary": null,
-"seq_id": "106448562",
-"fileSize": "288.12 KB"
 }
 ]

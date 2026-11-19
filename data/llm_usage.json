@@ -200,5 +200,25 @@
     }
    }
   }
+ },
+ {
+  "at": "2026-11-19T20:58Z",
+  "stage": "research",
+  "usage": {}
+ },
+ {
+  "at": "2026-11-20T02:28",
+  "stage": "snapshot",
+  "usage": {
+   "triage": {
+    "calls": 1,
+    "cache_hits": 0,
+    "tokens_in": 1108,
+    "tokens_out": 86,
+    "models": {
+     "gemini-3.5-flash-lite": 1
+    }
+   }
+  }
  }
 ]

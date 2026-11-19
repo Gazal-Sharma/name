@@ -1,90 +1,90 @@
 {
- "ran_at": "2026-11-18T20:52:04.763928Z",
+ "ran_at": "2026-11-19T20:56:39.613488Z",
  "errors": [],
  "prices": {
   "INFY": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "HCLTECH": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "PERSISTENT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "HDFCBANK": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "ICICIBANK": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "BAJFINANCE": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "CDSL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "TITAN": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "TRENT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "ETERNAL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "LT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "POLYCAB": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "DIXON": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "RELIANCE": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "BHARTIARTL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "SUNPHARMA": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "MARUTI": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "INDIGO": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "NIFTY": [
    398,
-   "2026-11-17"
+   "2026-11-18"
   ]
  },
  "filings": {
-  "INFY": 216,
-  "HCLTECH": 216,
-  "PERSISTENT": 275,
-  "HDFCBANK": 158,
-  "ICICIBANK": 241,
+  "INFY": 215,
+  "HCLTECH": 214,
+  "PERSISTENT": 274,
+  "HDFCBANK": 157,
+  "ICICIBANK": 242,
   "BAJFINANCE": 108,
   "CDSL": 112,
   "TITAN": 137,
@@ -92,23 +92,23 @@
   "ETERNAL": 70,
   "LT": 181,
   "POLYCAB": 153,
-  "DIXON": 165,
+  "DIXON": 162,
   "RELIANCE": 167,
-  "BHARTIARTL": 231,
+  "BHARTIARTL": 230,
   "SUNPHARMA": 131,
   "MARUTI": 147,
-  "INDIGO": 152
+  "INDIGO": 151
  },
  "desc_counts": {
-  "Analysts/Institutional Investor Meet/Con. Call Updates": 548,
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 544,
   "General Updates": 460,
-  "Updates": 419,
+  "Updates": 418,
   "Copy of Newspaper Publication": 195,
   "Press Release": 181,
-  "ESOP/ESOS/ESPS": 142,
+  "ESOP/ESOS/ESPS": 141,
   "Shareholders meeting": 114,
   "Outcome of Board Meeting": 106,
-  "Action(s) taken or orders passed": 98,
+  "Action(s) taken or orders passed": 96,
   "Trading Window": 64,
   "Certificate under SEBI (Depositories and Participants) Regulations, 2018": 61,
   "Investor Presentation": 48,
@@ -151,7 +151,6 @@
   "Rumour Verification - Regulation 30(11)": 2,
   "Memorandum of Understanding/Agreements": 2,
   "Post Buyback Public Announcement": 1,
-  "Buyback": 1,
   "Disclosure of material issue": 1,
   "Resignation of Independent director": 1,
   "Qualified Institutional Placement": 1,

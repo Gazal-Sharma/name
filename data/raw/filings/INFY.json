@@ -39,7 +39,7 @@
 "an_dt": "12-Nov-2026 11:19:58",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/Infosys_12112026111940_PR_12112026.pdf",
 "attchmntText": "Infosys Limited has informed the Exchange regarding 'Six Promising Researchers Win the Infosys Prize 2026 Awarded by the Infosys Science Foundation'.",
-"voiceSummary": "Infosys Limited issued a press release on November 12, 2026, announcing that the Infosys Science Foundation awarded the Infosys Prize 2026 to six researchers. The laureates are Karthik Sastry in Economics, Swarun Kumar in Engineering and Computer Science, Gautam Bhatia in Humanities and Social Sciences, Isha Jain in Life Sciences, Riddhipratim Basu in Mathematical Sciences, and Manoj Kumar Joshi in Physical Sciences. Each winner receives a gold medal, a citation, and a prize purse of USD 100,000. The prize honors researchers under the age of 40. The winners were selected by an international panel of jurors and announced by the trustees of the Infosys Science Foundation. The information is hosted on the company website at www.infosys.com.",
+"voiceSummary": null,
 "seq_id": "106856189",
 "fileSize": "3.30 MB"
 },
@@ -2363,16 +2363,5 @@
 "voiceSummary": null,
 "seq_id": "106450250",
 "fileSize": "8.76 MB"
-},
-{
-"symbol": "INFY",
-"sm_name": "Infosys Limited",
-"desc": "Buyback",
-"an_dt": "18-Nov-2025 18:25:53",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/Infosys_18112025182523_SE_letter_LoF_18112025.pdf",
-"attchmntText": "Infosys Limited has informed the Exchange about despatch of Letter of Offer",
-"voiceSummary": null,
-"seq_id": "106449047",
-"fileSize": "1.54 MB"
 }
 ]

@@ -1,92 +1,92 @@
 /home/runner/work/name/name/pipeline/fetch_raw.py:9: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
   status = {"ran_at": dt.datetime.utcnow().isoformat() + "Z", "errors": []}
 {
- "ran_at": "2026-11-18T20:52:04.763928Z",
+ "ran_at": "2026-11-19T20:56:39.613488Z",
  "errors": [],
  "prices": {
   "INFY": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "HCLTECH": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "PERSISTENT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "HDFCBANK": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "ICICIBANK": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "BAJFINANCE": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "CDSL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "TITAN": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "TRENT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "ETERNAL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "LT": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "POLYCAB": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "DIXON": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "RELIANCE": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "BHARTIARTL": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "SUNPHARMA": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "MARUTI": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "INDIGO": [
    399,
-   "2026-11-17"
+   "2026-11-18"
   ],
   "NIFTY": [
    398,
-   "2026-11-17"
+   "2026-11-18"
   ]
  },
  "filings": {
-  "INFY": 216,
-  "HCLTECH": 216,
-  "PERSISTENT": 275,
-  "HDFCBANK": 158,
-  "ICICIBANK": 241,
+  "INFY": 215,
+  "HCLTECH": 214,
+  "PERSISTENT": 274,
+  "HDFCBANK": 157,
+  "ICICIBANK": 242,
   "BAJFINANCE": 108,
   "CDSL": 112,
   "TITAN": 137,
@@ -94,23 +94,23 @@
   "ETERNAL": 70,
   "LT": 181,
   "POLYCAB": 153,
-  "DIXON": 165,
+  "DIXON": 162,
   "RELIANCE": 167,
-  "BHARTIARTL": 231,
+  "BHARTIARTL": 230,
   "SUNPHARMA": 131,
   "MARUTI": 147,
-  "INDIGO": 152
+  "INDIGO": 151
  },
  "desc_counts": {
-  "Analysts/Institutional Investor Meet/Con. Call Updates": 548,
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 544,
   "General Updates": 460,
-  "Updates": 419,
+  "Updates": 418,
   "Copy of Newspaper Publication": 195,
   "Press Release": 181,
-  "ESOP/ESOS/ESPS": 142,
+  "ESOP/ESOS/ESPS": 141,
   "Shareholders meeting": 114,
   "Outcome of Board Meeting": 106,
-  "Action(s) taken or orders passed": 98,
+  "Action(s) taken or orders passed": 96,
   "Trading Window": 64,
   "Certificate under SEBI (Depositories and Participants) Regulations, 2018": 61,
   "Investor Presentation": 48,
@@ -165,38 +165,44 @@ TATAPOWER up to date
 DMART up to date
 /opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/site-packages/fitz/__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
   warnings.warn(
-classified 2973 filings
-triage: 2 enriched, 0 failed, 0 over cap
+classified 2964 filings
+triage: 1 enriched, 0 failed, 0 over cap
 {
- "feed": 827,
+ "feed": 818,
  "tiers": {
   "1": 66,
-  "2": 139,
-  "3": 622
+  "2": 135,
+  "3": 617
  },
  "impact": {
   "baseline": {
    "median_abs": 0.71,
-   "n": 6595
+   "n": 6598
   },
   "categories": {
    "unclassified": {
-    "n": 798,
-    "median_abs": 0.81,
-    "share_gt2": 0.19,
-    "lift": 1.13
+    "n": 800,
+    "median_abs": 0.8,
+    "share_gt2": 0.18,
+    "lift": 1.12
    },
    "investor_meetings": {
-    "n": 384,
+    "n": 383,
     "median_abs": 0.83,
     "share_gt2": 0.2,
     "lift": 1.16
    },
+   "press_release": {
+    "n": 341,
+    "median_abs": 0.92,
+    "share_gt2": 0.21,
+    "lift": 1.29
+   },
    "fund_raise": {
-    "n": 40,
-    "median_abs": 1.15,
-    "share_gt2": 0.25,
-    "lift": 1.6
+    "n": 39,
+    "median_abs": 1.14,
+    "share_gt2": 0.23,
+    "lift": 1.59
    },
    "M&A": {
     "n": 90,
@@ -205,7 +211,7 @@ triage: 2 enriched, 0 failed, 0 over cap
     "lift": 1.08
    },
    "litigation": {
-    "n": 208,
+    "n": 206,
     "median_abs": 0.82,
     "share_gt2": 0.16,
     "lift": 1.15
@@ -217,10 +223,10 @@ triage: 2 enriched, 0 failed, 0 over cap
     "lift": 1.8
    },
    "credit_rating": {
-    "n": 57,
-    "median_abs": 0.91,
+    "n": 56,
+    "median_abs": 0.93,
     "share_gt2": 0.12,
-    "lift": 1.27
+    "lift": 1.29
    },
    "management_change": {
     "n": 91,
@@ -228,17 +234,11 @@ triage: 2 enriched, 0 failed, 0 over cap
     "share_gt2": 0.24,
     "lift": 1.4
    },
-   "press_release": {
-    "n": 341,
-    "median_abs": 0.94,
-    "share_gt2": 0.21,
-    "lift": 1.32
-   },
    "results": {
-    "n": 153,
+    "n": 152,
     "median_abs": 1.67,
-    "share_gt2": 0.44,
-    "lift": 2.34
+    "share_gt2": 0.43,
+    "lift": 2.33
    },
    "postal_ballot": {
     "n": 52,
@@ -274,7 +274,7 @@ triage: 2 enriched, 0 failed, 0 over cap
     "n": 18,
     "median_abs": 0.84,
     "share_gt2": 0.17,
-    "lift": 1.18
+    "lift": 1.17
    },
    "bonus_split": {
     "n": 3,

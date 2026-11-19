@@ -3,6 +3,17 @@
 "symbol": "RELIANCE",
 "sm_name": "Reliance Industries Limited",
 "desc": "Updates",
+"an_dt": "19-Nov-2026 18:35:25",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_19112026183441_SE_19112026.pdf",
+"attchmntText": "This is further to the disclosure dated November 13, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - Morgan Stanley 25th Annual Asia-Pacific Summit and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
+"voiceSummary": "Reliance Industries Limited provides an update on its Institutional Investors\u2019 Meeting. The company executives participated in the Morgan Stanley 25th Annual Asia-Pacific Summit held in Singapore on November 18 and 19, 2026. This event was organized by a third party. The company confirms that no unpublished price sensitive information was shared or discussed during the meeting. This disclosure follows the previous announcement made on November 13, 2026. The information is submitted for records.",
+"seq_id": "106866520",
+"fileSize": "198.92 KB"
+},
+{
+"symbol": "RELIANCE",
+"sm_name": "Reliance Industries Limited",
+"desc": "Updates",
 "an_dt": "17-Nov-2026 18:47:04",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_17112026184407_SE_17112026.pdf",
 "attchmntText": "This is further to the disclosure dated November 12, 2026 made by the Company. We wish to inform you that the Company executives participated in the Institutional Investors' Meeting - JM Financial India Conference and no unpublished price sensitive information was shared/discussed in the said one-on-one meeting.",
@@ -39,7 +50,7 @@
 "an_dt": "12-Nov-2026 20:23:38",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_12112026202324_SE_12112026.pdf",
 "attchmntText": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 17, 2026 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis.",
-"voiceSummary": "Reliance Industries Limited disclosed that its executives will participate in the JM Financial India Conference in Mumbai on November 17, 2026. The meeting is organized by a third party and is expected to be conducted on a one-on-one basis with investors. The company confirmed that no unpublished price sensitive information is proposed to be shared or discussed during this meeting. This disclosure is made under Regulation 30 of the SEBI Listing Obligations and Disclosure Requirements Regulations, 2015.",
+"voiceSummary": null,
 "seq_id": "106857662",
 "fileSize": "169.90 KB"
 },
@@ -1824,16 +1835,5 @@
 "voiceSummary": null,
 "seq_id": "106451188",
 "fileSize": "194.01 KB"
-},
-{
-"symbol": "RELIANCE",
-"sm_name": "Reliance Industries Limited",
-"desc": "Analysts/Institutional Investor Meet/Con. Call Updates",
-"an_dt": "18-Nov-2025 19:10:25",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/kavinavora_18112025191014_SE_18112025.pdf",
-"attchmntText": "Please note that the Company executives will be participating in the Institutional Investors' Meeting - JM Financial India Conference, scheduled to be held on November 21, 2025 at Mumbai. It is expected that the meeting with the investors will be on one-on-one basis",
-"voiceSummary": null,
-"seq_id": "106449120",
-"fileSize": "158.82 KB"
 }
 ]
