@@ -1,112 +1,112 @@
 {
- "ran_at": "2026-11-19T20:56:39.613488Z",
+ "ran_at": "2026-11-20T20:41:31.670387Z",
  "errors": [],
  "prices": {
   "INFY": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "HCLTECH": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "PERSISTENT": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "HDFCBANK": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "ICICIBANK": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "BAJFINANCE": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "CDSL": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "TITAN": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "TRENT": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "ETERNAL": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "LT": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "POLYCAB": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "DIXON": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "RELIANCE": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "BHARTIARTL": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "SUNPHARMA": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "MARUTI": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "INDIGO": [
    399,
-   "2026-11-18"
+   "2026-11-19"
   ],
   "NIFTY": [
    398,
-   "2026-11-18"
+   "2026-11-19"
   ]
  },
  "filings": {
-  "INFY": 215,
+  "INFY": 214,
   "HCLTECH": 214,
-  "PERSISTENT": 274,
-  "HDFCBANK": 157,
+  "PERSISTENT": 273,
+  "HDFCBANK": 158,
   "ICICIBANK": 242,
   "BAJFINANCE": 108,
   "CDSL": 112,
-  "TITAN": 137,
-  "TRENT": 113,
+  "TITAN": 139,
+  "TRENT": 114,
   "ETERNAL": 70,
-  "LT": 181,
+  "LT": 180,
   "POLYCAB": 153,
-  "DIXON": 162,
+  "DIXON": 163,
   "RELIANCE": 167,
   "BHARTIARTL": 230,
   "SUNPHARMA": 131,
-  "MARUTI": 147,
+  "MARUTI": 148,
   "INDIGO": 151
  },
  "desc_counts": {
-  "Analysts/Institutional Investor Meet/Con. Call Updates": 544,
+  "Analysts/Institutional Investor Meet/Con. Call Updates": 548,
   "General Updates": 460,
   "Updates": 418,
-  "Copy of Newspaper Publication": 195,
-  "Press Release": 181,
+  "Copy of Newspaper Publication": 194,
+  "Press Release": 180,
   "ESOP/ESOS/ESPS": 141,
-  "Shareholders meeting": 114,
+  "Shareholders meeting": 115,
   "Outcome of Board Meeting": 106,
   "Action(s) taken or orders passed": 96,
   "Trading Window": 64,

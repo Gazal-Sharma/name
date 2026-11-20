@@ -2,6 +2,17 @@
 {
 "symbol": "ICICIBANK",
 "sm_name": "ICICI Bank Limited",
+"desc": "ESOP/ESOS/ESPS",
+"an_dt": "20-Nov-2026 11:15:46",
+"attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_20112026111433_Lettertoexchange.pdf",
+"attchmntText": "ICICI Bank Limited has informed the Exchange regarding Allotment of 37828  Shares.",
+"voiceSummary": "ICICI Bank allotted 37,828 equity shares of face value Rs. 2 each on November 20, 2026 under the ICICI Bank Employees Stock Unit Scheme-2022. The allotment was approved by two Executive Directors at 10.50 a.m. on the same date. This approval was pursuant to powers delegated by the Board of Directors during its meeting held on October 21, 2023.",
+"seq_id": "106867119",
+"fileSize": "436.17 KB"
+},
+{
+"symbol": "ICICIBANK",
+"sm_name": "ICICI Bank Limited",
 "desc": "Credit Rating",
 "an_dt": "19-Nov-2026 17:29:39",
 "attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICI2022_19112026172914_NSEBSE19112026.pdf",
@@ -2649,16 +2660,5 @@
 "voiceSummary": null,
 "seq_id": "106451109",
 "fileSize": "621.34 KB"
-},
-{
-"symbol": "ICICIBANK",
-"sm_name": "ICICI Bank Limited",
-"desc": "ESOP/ESOS/ESPS",
-"an_dt": "19-Nov-2025 17:29:36",
-"attchmntFile": "https://nsearchives.nseindia.in/corporate/ICICIBANK1_19112025172857_LETTER_TO_STOCK_EXCHNAGE1.pdf",
-"attchmntText": "ICICI Bank Limited has informed the Exchange regarding Allotment of 572490  Shares.",
-"voiceSummary": null,
-"seq_id": "106450022",
-"fileSize": "199.27 KB"
 }
 ]
